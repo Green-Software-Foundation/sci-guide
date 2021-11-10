@@ -20,7 +20,7 @@ This Open Data project will provide all the necessary data sources that can be u
 
 ## Resources
 
-* [Meeting Schedule](tbc) (Members Only)
+* [Meeting Schedule - tbc]() (Members Only)
 * [Shared Google Drive](https://drive.google.com/drive/folders/1Ej6E8M78xVF0Bb-zaIuMpMucUER6TSQZ?usp=sharing) (GSF Members Only)
 * [Slack Channel](https://greensoftwarefdn.slack.com/archives/C02LW83D5CJ) (GSF Members Only)
 
