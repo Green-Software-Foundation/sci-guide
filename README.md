@@ -1,7 +1,5 @@
 
 ## Scope
-Once we publish the Software Carbon Intensity Standard, we are going to want software technologists to be able to easily use the standard to measure the SCI of their application. In order to use the standard, technologists will need a number of different input data sources that the standard itself won’t necessarily provide. 
-
 This Open Data project will provide all the necessary data sources that can be used as inputs for the SCI standard, for free. There may be more accurate data sources available to some users of the SCI, but this project is to create a baseline set of data to be used when this isn’t possible. At least the following data sets will be published:
 
 - (I) - Emissions factors. These may be regional yearly averages to begin, but ideally marginal and at a finer granularity than that. 
