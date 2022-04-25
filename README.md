@@ -12,7 +12,7 @@ This Open Data project will provide all the necessary data sources that can be u
 
 
 ## Appointments 
-- Chair/Project lead - Dan Lewis-toakley (ThoughtWorks)
+- Chair/Project lead - Chris Adams (Green Web Foundation)
 
 ## Other Projects
 - [Awesome Green Software](https://github.com/Green-Software-Foundation/awesome-green-software)
