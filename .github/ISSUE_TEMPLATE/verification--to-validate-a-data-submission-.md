@@ -19,7 +19,7 @@ assignees: seanmcilroy29
   - [ ] Details to be added
   - [ ] Details to be added
   
-### 3. Confirm External validation: does someone else (standard body, electrical generator, cloud service provider) vouch for this ###
+### 4. Confirm External validation: Specify supportive submission (standard body, electrical generator, cloud service provider) ###
 
 
- ### Comments ###
+ ### Addition Comments ###
