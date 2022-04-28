@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: Types
     attributes:
-      label:Topic / Type / Category
+      label: Topic / Type / Category
       description: Outline the topic type and category of submission?
       options:
         - to be added
