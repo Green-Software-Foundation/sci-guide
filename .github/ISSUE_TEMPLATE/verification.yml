@@ -30,7 +30,7 @@ body:
     id: Types
     attributes:
       label:Topic / Type / Category
-      description: Outline the topic, type and category of submission?
+      description: Outline the topic type and category of submission?
       options:
         - to be added
         - to be added
