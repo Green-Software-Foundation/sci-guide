@@ -37,7 +37,7 @@ body:
     id: Methodology
     attributes:
       label: link to the way that the data was generated or some narrative
-      Required: true
+      Required: false
   - type: textarea
     id: logs
     attributes:
