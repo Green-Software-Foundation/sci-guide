@@ -18,7 +18,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: data request
+    id: data_request
     attributes:
       label: Data request?
       description: Outline the data request requirement?
@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Additional info
+    id: Additional_info
     attributes:
       label: Outline any further information requirements
   - type: checkboxes
