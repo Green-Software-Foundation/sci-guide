@@ -22,8 +22,8 @@ body:
     attributes:
       label: Source?
       description: What source was used?
-      placeholder: Tell us what you did!
-      value: "What source was used"
+      placeholder: Tell us what you did?
+      value: What source was used?
     validations:
       required: true
   - type: textarea
