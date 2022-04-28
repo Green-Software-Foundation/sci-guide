@@ -1,0 +1,62 @@
+name: Verification Submission
+description: Verification Submission
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - Chris Adams, Brian Hopper
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Source?
+      description: What source was used?
+      placeholder: Tell us what you did!
+      value: "What source was used"
+    validations:
+      required: true
+  - type: textarea
+    id: Types
+    attributes:
+      label:Topic / Type / Category
+      description: Outline the topic, type and category of submission?
+      options:
+        - to be added
+        - to be added
+    validations:
+      required: true
+  - type: textarea
+    id: Methodology
+    attributes:
+      label: link to the way that the data was generated or some narrative
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Confirm External Validation
+      description: Please copy and paste any relevant external validation information. 
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://greensoftware.foundation/code-of-conduct)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
