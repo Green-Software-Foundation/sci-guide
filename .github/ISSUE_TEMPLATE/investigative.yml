@@ -1,0 +1,46 @@
+name: Investigative Submission
+description: Data request
+title: "[Investigative Submission]: "
+labels: ["investigative submission"]
+assignees:
+  - mrchrisadams, Brian Hopper
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Verification Submission report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: Data request
+    attributes:
+      label: Data request?
+      description: Outline the data request requirement?
+      placeholder: Data request?
+      value: Data request?
+    validations:
+      required: true
+  - type: textarea
+    id: Types
+    attributes:
+      label: Topic, Type and Category
+      description: Outline the topic type and category of submission?
+    validations:
+  - type: textarea
+    id: Additional info
+    attributes:
+      label: Outline any further information requirements
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://greensoftware.foundation/code-of-conduct)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
