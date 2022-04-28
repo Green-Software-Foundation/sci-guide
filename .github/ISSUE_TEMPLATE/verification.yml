@@ -31,21 +31,13 @@ body:
     attributes:
       label: Topic_Type_Category
       description: Outline the topic type and category of submission?
-      options:
-        - to be added
-        - to be added
     validations:
       required: true
   - type: textarea
     id: Methodology
     attributes:
       label: link to the way that the data was generated or some narrative
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      Required: true
   - type: textarea
     id: logs
     attributes:
