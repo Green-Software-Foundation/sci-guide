@@ -1,7 +1,7 @@
 name: Verification Submission
 description: Verification Submission
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "[Verification Submission]: "
+labels: ["Verification Submission"]
 assignees:
   - Chris Adams, Brian Hopper
 body:
