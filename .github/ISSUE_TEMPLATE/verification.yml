@@ -32,7 +32,6 @@ body:
       label: Topic_Type_Category
       description: Outline the topic type and category of submission?
     validations:
-    required: false
   - type: textarea
     id: Methodology
     attributes:
