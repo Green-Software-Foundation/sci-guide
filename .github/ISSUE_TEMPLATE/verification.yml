@@ -32,12 +32,12 @@ body:
       label: Topic_Type_Category
       description: Outline the topic type and category of submission?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: Methodology
     attributes:
       label: link to the way that the data was generated or some narrative
-      Required: false
+      Required: true
   - type: textarea
     id: logs
     attributes:
