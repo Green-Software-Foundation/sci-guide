@@ -3,12 +3,12 @@ description: Verification Submission
 title: "[Verification Submission]: "
 labels: ["Verification Submission"]
 assignees:
-  - Chris Adams, Brian Hopper
+  - mrchrisadams, Brian Hopper
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this Verification Submission report!
   - type: input
     id: contact
     attributes:
