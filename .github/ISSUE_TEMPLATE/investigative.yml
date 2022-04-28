@@ -18,7 +18,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Data request
+    id: data request
     attributes:
       label: Data request?
       description: Outline the data request requirement?
@@ -26,12 +26,6 @@ body:
       value: Data request?
     validations:
       required: true
-  - type: textarea
-    id: Types
-    attributes:
-      label: Topic, Type and Category
-      description: Outline the topic type and category of submission?
-    validations:
   - type: textarea
     id: Additional info
     attributes:
