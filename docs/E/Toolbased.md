@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Tool based
 
-## What are the tools available for energy calculation ?
+### What are the tools available for energy calculation ?
 
 In our research we have identified a couple of tools  
 1) Windows E3 tool -https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options#option_srumutil
