@@ -9,5 +9,3 @@ sidebar_position: 1
 1) API based techniques  
 2) Performance Engineering techniques  
 3) Tool based  
-    Windows E3 tool  
-    Intel vTune Profiler
