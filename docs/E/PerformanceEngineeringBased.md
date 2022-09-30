@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Performance Engineering Based techniques
+# Performance Engineering  techniques
 
 ## What is the process of calculating Energy using the Performance Engineering Technique?
 

@@ -3,9 +3,9 @@ sidebar_position: 2
 ---
 
 
-# Tool based Techniques
+# Tool based
 
-## What is the Tool based technique  for energy calculation of the server?
+## What are the tools available for energy calculation ?
 
 Windows E3 tool -https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options#option_srumutil
 
