@@ -45,7 +45,7 @@ TR = Total Resources, meaning the total number of resources available.
 
 The explanation of each of the components in this formula is also given in the specification.
 
-
+[ Click Here ](MSubCalculations.md) for general guidelines to calculate the above values.
 
 ## Data Disclaimer
 Please note, the embodied data provided by the above approaches are approximation based. We expect the embodied carbon data to be made readily available by vendors (device manufacturers, cloud providers etc.) in future.
