@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ### What external data sources are available for getting carbon intensity data  ?
 
-The following are the list of public sources where you can find the carbon intesity data
+The following is the list of public sources where you can find the carbon intensity data
 based on the location. 
 1. Carbon intensity of electricity - https://ourworldindata.org/grapher/carbon-intensity-electricity
 2. Carbon Intensity for UK regions - https://carbonintensity.org.uk/
