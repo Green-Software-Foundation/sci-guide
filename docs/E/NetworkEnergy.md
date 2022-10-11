@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Network Infratstcture Energy Calculation
+# Network Infrastructure Energy Calculation
 
 ### For the networking infrastructure, how do you calculate energy?
 There are 2 types of energy associated with the networking infrastructure. 
