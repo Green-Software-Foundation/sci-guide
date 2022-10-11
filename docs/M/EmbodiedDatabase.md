@@ -21,7 +21,7 @@ Another general source of information is the Boavista website - https://dataviz.
 
 ### What if the data for embodied carbon is not available for my hardware/server configuration ?
 
-Please refer to the manual approach to get the data for your hardware/server configuratio. 
+Please refer to the [ manual approach ](ManualEmbodiedLookupProcess.md) to get the data for your hardware/server configuration. 
 
 #### References
 
