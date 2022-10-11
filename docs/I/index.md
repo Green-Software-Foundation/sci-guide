@@ -17,4 +17,4 @@ There are multiple techniques that can be used to get the value of carbon intens
 #### 2) [ Lookup Carbon Intensity Database / Sources  ](IntensityDatabase.md)
  Refers to the approach of getting the value of marginal carbon intensity from various data sources or emission databases.
 
-If the marginal carbon intensity is not available at runtime or delayed intervals for a given location/geography, you can go with monthly, quarterly or yearly average emission data based on data availability,
+If the marginal carbon intensity is not available at runtime or delayed intervals for a given location/geography, you can go with monthly, quarterly or yearly average emission data based on data availability.
