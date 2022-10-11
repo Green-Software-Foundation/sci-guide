@@ -10,6 +10,7 @@ sidebar_position: 2
 The following is the list of public sources where you can find the embodied carbon based for VM types for a cloud provider (AWS, Azure and Google Cloud)
 
 1. Cloud Carbon Footprint - Embodied Emissions constants - https://docs.google.com/spreadsheets/d/1k-6JtneEu4E9pXQ9QMCXAfyntNJl8MnV2YzO4aKHh-0/edit#gid=0
+
 To use the above resource, you need to find the VM type used for running the application. Let's assume, you are using an "A8 V2" machine on Azure, to get embodied carbon, lookup the excel and find "A8 V2" in the virtual machine column and get the embodied carbon value from "Total Platform Scope 3 Emissions  (kgCO₂eq)" column for the selected entry. 
 
 
