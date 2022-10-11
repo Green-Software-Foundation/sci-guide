@@ -13,7 +13,7 @@ The only value that matters if you’re trying to optimize the scheduling of you
 There are multiple techniques that can be used to get the value of carbon intensity. Some of the techniques are listed below. 
 
 #### 1) [ API based techniques ](APIBased.md)
- Refers to the approach of integrating your software with APIs that provide the margical carbon itensity at run time or at delayed intervals (i.e every 15 minutes). 
+ Refers to the approach of integrating your software with APIs that provide the marginal carbon intensity at run time or at delayed intervals (i.e every 15 minutes). 
 #### 2) [ SDK Based ](SDKBased.md) 
 Refers to the approach of integrating your software with SDK that provides the marginal carbon intensity at run time or delayed intervals (i.e every 15 minutes).  
 #### 3) [ Lookup Carbon Intensity Database / Sources  ](Database.md)
