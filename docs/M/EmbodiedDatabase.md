@@ -19,6 +19,10 @@ For Laptops or client devices the specific manufacturer would have given the emb
 
 Another general source of information is the Boavista website - https://dataviz.boavizta.org/.
 
+### What if the data for embodied carbon is not available for my hardware/server configuration ?
+
+Please refer to the manual approach to get the data for your hardware/server configuratio. 
+
 #### References
 
 Evaluating the carbon footprint of a software platform hosted in the cloud
