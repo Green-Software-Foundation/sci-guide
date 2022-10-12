@@ -17,6 +17,15 @@ Let's take a simple example. Assume you want to calculate the SCI score for a so
 
 So now lets calculate the following -
 1. Energy -  For Energy, we would first look at the approach listed in main page for [ E ](E).
-We select [ API based techniques ](APIBased.md) and use one of the API vendors, [Climatiq] (https://www.climatiq.io/docs#cpu). The API requires CPU utilization data, VPCU and location details. We get CPU utilization data from cloud metrics.
-By Calling the API, we get the 
+We select [ API based techniques ](APIBased.md) and use one of the API vendors, [Climatiq] (https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilization data, VPCU and location details. We get CPU utilization data from cloud metrics. The API uses publicly available 
+avereage data for carbon itensity for a given electricity grid based on the locationa and 
+a mix of local energy sources.
+
+By Calling the API, we get the C02e of the VCPU as 1,329 gC02e
+
+2. Embodied emission -  For Energy, we would first look at the approach listed on the main page for [ M ](M).
+We select  [ Lookup Embodied Database ](EmbodiedDatabase.md) and lookup embodied emission of the server type e2-standard-4. We get embodied carbon as 1230.3 kgCO₂eq
+
+
+
 
