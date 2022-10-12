@@ -15,5 +15,8 @@ the software appplication. Some of the techniques are listed below.
  Refers to the approach of measuring run time heuristics and using calculations for measurement of energy.
 #### 3) [ Tool based  ](Toolbased.md)
  Refers to the approach of integrating your software with tools running on the desktop or servers that provide energy values. 
+#### 3) [ Public Sources  ](PublicSources.md)
+ Refers to the approach of getting reference value of energy of computing resources from public sources.
+
 
 The above approaches, currently doesn't factor in Network. For Network [ Click Here ](NetworkEnergy.md)

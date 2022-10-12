@@ -12,7 +12,6 @@ The main consumers of power on a server will be the CPU, the GPU, and the memory
 
 ### What is the formula that can be used for power calculation ?
 
-
 The formula is as follows:
 
 `P[kWh]=(c∙P_c+ P_r+g∙P_g)/1000`
