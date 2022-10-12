@@ -49,5 +49,4 @@ The explanation of each of the components in this formula is also given in the s
 
 ## Data Disclaimer
 Please note, the embodied data provided by the above approaches are approximation based. We expect the embodied carbon data to be made readily available by vendors (device manufacturers, cloud providers etc.) in future.
-For instance, some of the managed services like API Gateway provided by the cloud vendors, don't diclose thier
-server type/configuration. In absence of server details, it would be deifficult to calculate the embodied carbon for the server/hardware resoucres used by the software applictaion.
+For instance, some of the managed services like API Gateway provided by the cloud vendors, don't disclose their server type/configuration. In absence of server details, it would be difficult to calculate the embodied carbon for the server/hardware resources used by the software application. In such cases, you can go with approximation-based methods (i.e cost based, attribute a percentage of total application carbon emission).
