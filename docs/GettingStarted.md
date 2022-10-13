@@ -13,23 +13,23 @@ Please note the data provided by the data providers are approximation based and 
 The quick guide shows how to use the SCI Open Data to get Energy (E) and Embodied (M) emissions,
 Carbon Intensity (I) for the software application as per the SCI specification.
 
-Let's take a simple example. Assume you want to calculate the SCI score for a software application running on Google Cloud VM. The VM configuration is e2-standard-4 (4 CPU, 16GB RAM) and running in us-east region.The software application scales by API and average monthly request is 10k.  
+Let's take a simple example. Assume you want to calculate the SCI score for a software application running on Google Cloud VM. The VM configuration is e2-standard-4 (4 CPU, 16GB RAM) and running in us-east region.The software application scales by API and average monthly request is 20k.  
 
 So now lets calculate the following -
-1. Energy -  For Energy, we would first look at the approach listed in main page for [ E ](E).
+1. Energy -  For Energy, we first look at the approach listed in main page for [ E ](E).
 We select [ API based techniques ](./E/APIBased.md) and use one of the API vendors, [Climatiq] (https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilization data, VPCU and location details. We get CPU utilization data from cloud metrics. The API uses publicly available 
-avereage data for carbon itensity for a given electricity grid based on the locationa and 
+avereage data for carbon itensity for a given electricity grid based on the location and 
 a mix of local energy sources.
 
 By Calling the API, we get the C02e of the VCPU as 1,329 gC02e
 
-2. Embodied emission -  For Energy, we would first look at the approach listed on the main page for [ M ](M).
+2. Embodied emission -  For Energy, we first look at the approach listed on the main page for [ M ](M).
 We select  [ Lookup Embodied Database ](./M/EmbodiedDatabase.md) and lookup embodied emission of the server type e2-standard-4. We get embodied carbon as 1230.3 kgCO₂eq
 
 3. For Expected Lifespan (EL),  Time Reserved (TR), Resource Reserved (RR) , Total Resources (TR), we refer the main page of [Embodied Calculations](./M/MSubCalculations.md) for general guidelines to calculate the above values.
 From the above [Embodied Calculations](./M/MSubCalculations.md) page, we infer the following years
 
-EL as 4 years (Average span for bare metal server)
+EL as 4 years (Average life span for bare metal server)
 
 TR as 1 Month (Time when the VM server was running for our application)
 
@@ -45,7 +45,10 @@ SCI Equation =  ((E*I) + M) per R
 
 For M, the equation  = TE * (TR/EL) * (RR/TR)
 
-TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructure like racks, cooling water resources that we have excluded.
+TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we had calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded.
+
+SCI Score = 0.226 per API Call.
+and cooling water resources that we have excluded.
 
 SCI Score = 0.226 per API Call.
 
