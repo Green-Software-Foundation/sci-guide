@@ -30,15 +30,21 @@ We select  [ Lookup Embodied Database ](./M/EmbodiedDatabase.md) and lookup embo
 From the above [Embodied Calculations](./M/MSubCalculations.md) page, we infer the following years
 
 EL as 4 years (Average span for bare metal server)
+
 TR as 1 Month (Time when the VM server was running for our application)
+
 RR as 4 (Number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
+
 TR as 32 (total resources available in a bare metal server running e2-standard-4 instances.)
+
 For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
 4. For R, we already have 10k API request/month
 
 SCI Equation =  ((E*I) + M) per R
+
 For M, the equation  = TE * (TR/EL) * (RR/TR)
+
 TE = Total Embodied Emissions, meaning the sum of LCA emissions for all hardware components, which we calculated in Step 2.
 
 SCI Score = 
