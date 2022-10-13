@@ -45,7 +45,7 @@ SCI Equation =  ((E*I) + M) per R
 
 For M, the equation  = TE * (TR/EL) * (RR/TR)
 
-TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we calculated in Step 2. We have only include the server/hardware component, but there might be other supporting infrastructure like racks, cooling water resources that we have excluded.
+TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructure like racks, cooling water resources that we have excluded.
 
 SCI Score = 0.226 per API Call.
 
