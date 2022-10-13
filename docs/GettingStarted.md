@@ -27,26 +27,26 @@ We select  [ Lookup Embodied Database ](./M/EmbodiedDatabase.md) and lookup embo
 - For Expected Lifespan (EL),  Time Reserved (TR), Resource Reserved (RR) , Total Resources (TR), we refer the main page of [Embodied Calculations](./M/MSubCalculations.md) for general guidelines to calculate the above values.
 From the above [Embodied Calculations](./M/MSubCalculations.md) page, we infer the following 
 
--- EL as 4 years (Average life span for bare metal server)
+    - EL as 4 years (Average life span for bare metal server)
 
--- TR as 1 Month (Time when the VM server was running for our application)
+    - TR as 1 Month (Time when the VM server was running for our application)
 
--- RR as 4 (Number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
+    - RR as 4 (Number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
 
--- TR as 32 (total resources available in a bare metal server running e2-standard-4 instances.). 
+    - TR as 32 (total resources available in a bare metal server running e2-standard-4 instances.). 
 For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
-- For R, we already have 20k API request/per month
+- For R, we already have 20k API requests/per month
 
 - SCI Calculation
 
--- SCI Equation =  ((E*I) + M) per R
+    - SCI Equation =  ((E*I) + M) per R
 
--- For M, the equation  = TE * (TR/EL) * (RR/TR)
+    - For M, the equation  = TE * (TR/EL) * (RR/TR)
 
--- TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we had calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded.
+    - TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we had calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded.
 
--- SCI Score = 0.226 per API Call.
+    - SCI Score = 0.226 per API Call.
 
 
 
