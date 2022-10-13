@@ -17,23 +17,23 @@ Let's take a simple example. Assume you want to calculate the SCI score for a so
 
 So now lets calculate the following -
 1. Energy -  For Energy, we would first look at the approach listed in main page for [ E ](E).
-We select [ API based techniques ](APIBased.md) and use one of the API vendors, [Climatiq] (https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilization data, VPCU and location details. We get CPU utilization data from cloud metrics. The API uses publicly available 
+We select [ API based techniques ](./E/APIBased.md) and use one of the API vendors, [Climatiq] (https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilization data, VPCU and location details. We get CPU utilization data from cloud metrics. The API uses publicly available 
 avereage data for carbon itensity for a given electricity grid based on the locationa and 
 a mix of local energy sources.
 
 By Calling the API, we get the C02e of the VCPU as 1,329 gC02e
 
 2. Embodied emission -  For Energy, we would first look at the approach listed on the main page for [ M ](M).
-We select  [ Lookup Embodied Database ](EmbodiedDatabase.md) and lookup embodied emission of the server type e2-standard-4. We get embodied carbon as 1230.3 kgCO₂eq
+We select  [ Lookup Embodied Database ](./M/EmbodiedDatabase.md) and lookup embodied emission of the server type e2-standard-4. We get embodied carbon as 1230.3 kgCO₂eq
 
-3. For Expected Lifespan (EL),  Time Reserved (TR), Resource Reserved (RR) , Total Resources (TR), we refer the main page of [Embodied Calculations](MSubCalculations.md) for general guidelines to calculate the above values.
-From the above [Embodied Calculations], we infer the following years
+3. For Expected Lifespan (EL),  Time Reserved (TR), Resource Reserved (RR) , Total Resources (TR), we refer the main page of [Embodied Calculations](./M/MSubCalculations.md) for general guidelines to calculate the above values.
+From the above [Embodied Calculations](./M/MSubCalculations.md) page, we infer the following years
 
 EL as 4 years (Average span for bare metal server)
-TR as 1 Month (Time when the VM server was running for our applictaion)
+TR as 1 Month (Time when the VM server was running for our application)
 RR as 4 (Number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
-TR as 32 (total resources available in bare metal server running e2-standard-4 instances.)
-For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU trhough the e2-standard-32 machine
+TR as 32 (total resources available in a bare metal server running e2-standard-4 instances.)
+For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
 4. For R, we already have 10k API request/month
 
