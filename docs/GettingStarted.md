@@ -39,15 +39,15 @@ TR as 32 (total resources available in a bare metal server running e2-standard-4
 
 For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
-4. For R, we already have 10k API request/month
+4. For R, we already have 20k API request/per month
 
 SCI Equation =  ((E*I) + M) per R
 
 For M, the equation  = TE * (TR/EL) * (RR/TR)
 
-TE = Total Embodied Emissions, meaning the sum of LCA emissions for all hardware components, which we calculated in Step 2.
+TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we calculated in Step 2. We have only include the server/hardware component, but there might be other supporting infrastructure like racks, cooling water resources that we have excluded.
 
-SCI Score = 
+SCI Score = 0.226 per API Call.
 
 
 
