@@ -46,7 +46,7 @@ For TR we do a lookup for e2-standard-4 machine in the Google Documentation http
 
     - TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we had calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded.
 
-    - SCI Score = 0.226 per API Call.
+    - SCI Score = 0.226 gC02e per API Call.
 
 
 
