@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Functional Unit
+# Functional Unit (R)
 
 The functional unit defines how your application scales. For instance, if your application scales by APIs then choose API as your functional unit.
 

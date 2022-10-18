@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Energy Carbon Intensity
+# Energy Carbon Intensity (I)
 
 The carbon intensity of electricity is a measure of how much carbon (CO2eq) emissions are produced per kilowatt-hour (kWh) of electricity consumed. 
 

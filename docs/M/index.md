@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Embodied
+# Embodied (M)
 
 Embodied carbon (otherwise referred to as “embedded carbon”) is the amount of carbon emitted during the creation and disposal of a hardware device.
 
