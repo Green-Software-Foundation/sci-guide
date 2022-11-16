@@ -6,8 +6,8 @@ sidebar_position: 1
 
 ### What are the different techniques that can be used for calculation of Energy ?
 
-Software systems cause emissions through the hardware that they operate on, both through the energy that the physical hardware consumes and the emissions associated with manufacturing the hardware. There are multiple techniques that can be used to calculate the energy values that physical hardware consumes while running
-the software appplication. Some of the techniques are listed below. 
+Software systems cause emissions through the hardware that they operate on, both through the energy that the physical hardware consumes and the emissions associated with manufacturing the hardware. There are multiple techniques that can be used to calculate the energy values that physical hardware consumes while running the software appplication. Some of the techniques are listed below. 
+
 
 #### 1) [ API based techniques ](APIBased.md)
  Refers to the approach of integrating your software with APIs that provide the energy values at run time. 
