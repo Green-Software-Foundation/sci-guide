@@ -10,10 +10,9 @@ Please note that the data provided by the data providers are approximations inte
 
 
 # Quick Guide 
-The quick guide shows how to use the SCI Open Data to get Energy (E) and Embodied (M) emissions,
-Carbon Intensity (I) for the software application as per the SCI specification.
+The quick guide shows you how to use SCI open data to get energy (E), embodied (M) emissions and carbon intensity (I) for a software application.
 
-Let's take a simple example. Assume you want to calculate the SCI score for a software application running on Google Cloud VM. The VM configuration is e2-standard-4 (4 CPU, 16GB RAM) and running in us-east region.The software application scales by API and average monthly request is 20k.  
+Imagine you want to calculate the SCI score for a software application running on a Google Cloud VM. The VM configuration is e2-standard-4 (4 CPU, 16GB RAM) and running in the US-East region.The software application scales by API and the average monthly requests are 20k. 
 
 So lets calculate the following -
 - Energy -  For Energy, we first look at the approach listed in main page for [ E ](E).
