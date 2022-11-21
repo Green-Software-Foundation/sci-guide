@@ -29,8 +29,8 @@ WE would calculate the SCI as follows:
     - The RR is 4 (number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
 
     - The TR is 32 (total resources available in a bare metal server running e2-standard-4 instances)
-     
-For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
+
+- For TR we do a lookup for an e2-standard-4 machine in the (Google documentation)[https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard] and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
 - For R, we already have 20k API requests/per month
 
@@ -38,9 +38,9 @@ For TR we do a lookup for e2-standard-4 machine in the Google Documentation http
 
     - SCI Equation =  ((E*I) + M) per R
 
-    - For M, the equation  = TE * (TR/EL) * (RR/TR)
+    - M = TE (TR/EL) (RR/TR)
 
-    - TE = Total Embodied Emissions, the sum of LCA emissions for hardware components, which we had calculated in Step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded.
+    - TE = Total Embodied Emissions (the sum of LCA emissions for hardware components which we calculated in step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded).
 
     - SCI Score = 0.226 gC02e per API Call.
 
