@@ -5,12 +5,12 @@ sidebar_position: 2
 
 # Public Sources for Energy Calculation
 
-### What public sources and references are available for energy estimates for computing resources
-Following are some of the sources and references
+### What public sources and references are available for energy estimates for computing resources​?
+Here are some sources and references you can use for estimating the energy of computing resources:
 
 1. Cloud Jewels coefficients - https://www.etsy.com/codeascraft/cloud-jewels-estimating-kwh-in-the-cloud/
 
-The following coefficients are provided by Cloud Jewels for how many watt-hours (Wh) it takes to run a virtual server and how many watt-hours (Wh) it takes to store a terabyte of data on HDD (hard disk drive) or SSD (solid-state drive) disks in a cloud computing environment:
+The following coefficients are provided by Cloud Jewels for how many watt-hours (Wh) it takes to run a virtual server and to store a terabyte of data on HDD (hard disk drive) or SSD (solid-state drive) disks in a cloud computing environment:
 
 2.10 Wh per vCPUh [Server]
 0.89 Wh/TBh for HDD storage [Storage]
