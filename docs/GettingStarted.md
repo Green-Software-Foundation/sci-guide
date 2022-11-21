@@ -14,25 +14,22 @@ The quick guide shows you how to use SCI open data to get energy (E), embodied (
 
 Imagine you want to calculate the SCI score for a software application running on a Google Cloud VM. The VM configuration is e2-standard-4 (4 CPU, 16GB RAM) and running in the US-East region.The software application scales by API and the average monthly requests are 20k. 
 
-So lets calculate the following -
-- Energy -  For Energy, we first look at the approach listed in main page for [ E ](E).
-We select [ API based techniques ](./E/APIBased.md) and use one of the API vendors, [Climatiq] (https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilization data, VPCU and location details. We get CPU utilization data from cloud metrics. The API uses publicly available 
-avereage data for carbon itensity for a given electricity grid based on the location and 
-a mix of local energy sources. By Calling the API, we get the C02e of the VCPU as 1,329 gC02e
+WE would calculate the SCI as follows:
+- Energy - For energy, we check the [list of options](https://sci-data.greensoftware.foundation/E) and select [API based techniques](https://sci-data.greensoftware.foundation/E/APIBased). Next, we choose the API vendor  
+[Climatiq](https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilisation data, VPCU and location details. We can get the CPU utilisation data from cloud metrics. The API uses publicly available average data for carbon intensity for a given electricity grid, based on the location and a mix of local energy sources. When we call the API, the C02e of the VCPU comes back as 1,329 gC02e
 
-- Embodied emission -  For Energy, we first look at the approach listed on the main page for [ M ](M).
-We select  [ Lookup Embodied Database ](./M/EmbodiedDatabase.md) and lookup embodied emission of the server type e2-standard-4. We get embodied carbon as 1230.3 kgCO₂eq
+- Embodied emissions - For embodied emissions, we check the [list of options](https://sci-data.greensoftware.foundation/M) and select [Lookup Embodied Database](https://sci-data.greensoftware.foundation/M/EmbodiedDatabase). When we look up the embodied emission of the server type e2-standard-4, we get 1230.3 kgCO₂eq
 
-- For Expected Lifespan (EL),  Time Reserved (TR), Resource Reserved (RR) , Total Resources (TR), we refer the main page of [Embodied Calculations](./M/MSubCalculations.md) for general guidelines to calculate the above values.
-From the above [Embodied Calculations](./M/MSubCalculations.md) page, we infer the following 
+- To calculate expected lifespan (EL), time reserved (TR), resource reserved (RR) and total resources (TR), check the [embodied calculations](https://sci-data.greensoftware.foundation/M/MSubCalculations) page for general guidelines. We find the following values:
 
-    - EL as 4 years (Average life span for bare metal server)
+    - The EL is 4 years (average lifespan for bare metal server)
 
-    - TR as 1 Month (Time when the VM server was running for our application)
+    - The TR is 1 month (time when the VM server was running for our application)
 
-    - RR as 4 (Number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
+    - The RR is 4 (number of CPUs for our VM server, which is e2-standard-4 (4 CPU, 16GB RAM))
 
-    - TR as 32 (total resources available in a bare metal server running e2-standard-4 instances.). 
+    - The TR is 32 (total resources available in a bare metal server running e2-standard-4 instances)
+     
 For TR we do a lookup for e2-standard-4 machine in the Google Documentation https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
 - For R, we already have 20k API requests/per month
