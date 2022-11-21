@@ -4,19 +4,17 @@ sidebar_position: 1
 
 # Energy (E)
 
-### What are the different techniques that can be used for calculation of Energy ?
+### What are the different ways to  calculate energy?​
 
-Software systems cause emissions through the hardware that they operate on, both through the energy that the physical hardware consumes and the emissions associated with manufacturing the hardware. There are multiple techniques that can be used to calculate the energy values that physical hardware consumes while running the software appplication. Some of the techniques are listed below. 
+Software systems cause emissions through the hardware that they operate on, both through the energy that the physical hardware consumes and the emissions associated with manufacturing the hardware. There are multiple techniques that can be used to calculate the energy values that physical hardware consumes while running the software application. Some of these techniques are listed below:
 
 
 #### 1) [ API based techniques ](APIBased.md)
- Refers to the approach of integrating your software with APIs that provide the energy values at run time. 
+ This is when you integrate your software with APIs that provide the energy values at run time.
 #### 2) [ Performance Engineering techniques ](PerformanceEngineeringBased.md) 
- Refers to the approach of measuring run time heuristics like CPU utilization, Memory utilization etc and using these calculations for measurement of energy.
+ This is when you measure run time heuristics like CPU utilisation, memory utilisation, etc. and use these to calculate energy.
 #### 3) [ Tool based  ](Toolbased.md)
- Refers to the approach of integrating your software with tools running on the desktop or servers that provide energy values. 
+ This is when you integrate your software with tools running on the desktop or servers that provide energy values.
 #### 4) [ Public Sources  ](PublicSources.md)
- Refers to the approach of getting reference value of energy of computing resources from public sources.
-
-
-The above approaches cannot be applied when we need to calculate Energy associated with  Network infrastructure. For Network [ Click Here ](NetworkEnergy.md)
+ This is when you get energy reference values of computing resources from public sources.
+You cannot use the above approaches when you need to calculate energy associated with network infrastructure. Refer to [this link](https://sci-data.greensoftware.foundation/E/NetworkEnergy) to find out how.
