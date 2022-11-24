@@ -30,7 +30,7 @@ WE would calculate the SCI as follows:
 
     - The TR is 32 (total resources available in a bare metal server running e2-standard-4 instances)
 
-- For TR we do a lookup for an e2-standard-4 machine in the (Google documentation)[https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard] and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
+- For TR we do a lookup for an e2-standard-4 machine in the [Google documentation](https://cloud.google.com/compute/docs/general-purpose-machines#e2-standard) and see the maximum vCPU that is supported is 32 vCPU through the e2-standard-32 machine.
 
 - For R, we already have 20k API requests/per month
 
