@@ -39,5 +39,5 @@ The TDP number helps with designing what cooling the component needs. Although t
 
 #### What is the dataset that can can be used for finding the TDP of servers/memory?​
 
-Hardware manufacturers provide a data sheet for all their components which contain the TDP number. For example, (the TDP of the server used in Azure App server premium configuration (P2v2) -2nd Generation Intel® Xeon® Platinum 8272CL is 205 Watts) - (https://ark.intel.com/content/www/us/en/ark/products/192482/intel-xeon-platinum-8270-processor-35-75m-cache-2-70-ghz.html)
+Hardware manufacturers provide a data sheet for all their components which contain the TDP number. For example, [the TDP of the server used in Azure App server premium configuration (P2v2) -2nd Generation Intel® Xeon® Platinum 8272CL is 205 Watts](https://ark.intel.com/content/www/us/en/ark/products/192482/intel-xeon-platinum-8270-processor-35-75m-cache-2-70-ghz.html)
 
