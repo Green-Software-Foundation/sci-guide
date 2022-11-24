@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Performance Engineering techniques
+# Performance Engineering Techniques
 
 ### What is the process of calculating energy using performance engineering?​
 
@@ -29,7 +29,7 @@ We can use performance tests to calculate CPU and memory utilisation values. How
 
 ### How do you convert utilisation to power?​
 
-The conversion is documented in the SCI open data project and is available here - [Utilisation to power conversion] (https://docs.google.com/spreadsheets/d/1Viv94rMKH-fJrfD9Nn9_qkiAg1PDfIfJUAHRX9slG7A/edit#gid=526989613)
+The conversion is documented in the SCI open data project and is available here - [Utilisation to power conversion](https://docs.google.com/spreadsheets/d/1Viv94rMKH-fJrfD9Nn9_qkiAg1PDfIfJUAHRX9slG7A/edit#gid=526989613)
 
 The output is called the TDP coefficient. This TDP coefficient is then multiplied by the thermal design power rating on the specific component.
 
@@ -39,5 +39,5 @@ The TDP number helps with designing what cooling the component needs. Although t
 
 #### What is the dataset that can can be used for finding the TDP of servers/memory?​
 
-Hardware manufacturers provide a data sheet for all their components which contain the TDP number. For example, (the TDP of the server used in Azure App server premium configuration (P2v2) -2nd Generation Intel® Xeon® Platinum 8272CL is 205 Watts - (https://ark.intel.com/content/www/us/en/ark/products/192482/intel-xeon-platinum-8270-processor-35-75m-cache-2-70-ghz.html)
+Hardware manufacturers provide a data sheet for all their components which contain the TDP number. For example, (the TDP of the server used in Azure App server premium configuration (P2v2) -2nd Generation Intel® Xeon® Platinum 8272CL is 205 Watts) - (https://ark.intel.com/content/www/us/en/ark/products/192482/intel-xeon-platinum-8270-processor-35-75m-cache-2-70-ghz.html)
 
