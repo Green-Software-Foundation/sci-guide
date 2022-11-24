@@ -8,9 +8,9 @@ sidebar_position: 2
 
 ### What APIs can be used to calculate energy ?​
 
- The API-based technique is one of the simplest options to get energy consumption for the hardware resources running your application. Providers like (Climatiq)[https://www.climatiq.io/docs] provide APIs that give you the CO2e for the power consumption for computing (CPU), storage and memory, based on location and resource utilisation. There can be an improvement in adding real-time (or delayed interval) marginal carbon intensity data.
+ The API-based technique is one of the simplest options to get energy consumption for the hardware resources running your application. Providers like [Climatiq](https://www.climatiq.io/docs) provide APIs that give you the CO2e for the power consumption for computing (CPU), storage and memory, based on location and resource utilisation. There can be an improvement in adding real-time (or delayed interval) marginal carbon intensity data.
 
-The API documentation is available (here)[https://www.climatiq.io/docs#cpu]
+The API documentation is available [here](https://www.climatiq.io/docs#cpu)
 
 Let’s take a look at a sample request and response to get the energy consumption for a CPU with a 1 hour utilisation running in the uk_west region.
 
