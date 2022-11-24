@@ -27,10 +27,8 @@ Total resources refer to the total number of resources available.
 
 If you are running an application on a bare metal server exclusively, then the entire hardware resources are at the disposal of the application.
 
-For cloud applications, you can use the largest instance vCPUs for the given VM family type. In the case of Burstable (AWS) or Shared-Core (AWS) families, you can use the largest instance in the closest family as this is more accurate than using the largest in the Burstable/Shared-Core families. For the Azure Constrained vCPUs capable instances, you can use the underlying vCPUs of each instance as the largest vCPU. You can find more details (here) [https://www.cloudcarbonfootprint.org/docs/embodied-emissions]
+For cloud applications, you can use the largest instance vCPUs for the given VM family type. In the case of Burstable (AWS) or Shared-Core (AWS) families, you can use the largest instance in the closest family as this is more accurate than using the largest in the Burstable/Shared-Core families. For the Azure Constrained vCPUs capable instances, you can use the underlying vCPUs of each instance as the largest vCPU. You can find more details [here](https://www.cloudcarbonfootprint.org/docs/embodied-emissions)
 
 
 #### References
-
-Evaluating the carbon footprint of a software platform hosted in the cloud
-- https://medium.com/teads-engineering/evaluating-the-carbon-footprint-of-a-software-platform-hosted-in-the-cloud-e716e14e060c
+[Evaluating the carbon footprint of a software platform hosted in the cloud](https://medium.com/teads-engineering/evaluating-the-carbon-footprint-of-a-software-platform-hosted-in-the-cloud-e716e14e060c)
