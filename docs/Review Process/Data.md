@@ -23,7 +23,7 @@ Submitted SCI datasets should have the following constituents:
 - Submitted Date : <>
 - Published Date: <The date this version of the pattern is published. This will be provided by the SCI Data working group upon approval>
 - Tag Category : <Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this dataset>
-- Tags: <A [pre-defined list of additional tags](/docs/tags.md) which might apply to the Dataset(e.g. Machine Learning, Gaming, Mobile).>
+- Tags: <A pre-defined list of additional tags which might apply to the Dataset(e.g. Machine Learning, Gaming, Mobile).>
 - Solution: How will this dataset solve any open gap 
 - Assumptions: <What are the assumptions being made>
 - Not Applicable to : <Briefly describe the scenarios where we shouldnt apply this dataset.>
