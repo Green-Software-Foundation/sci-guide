@@ -14,19 +14,19 @@ The intent of the SCI open data project is to:
 # Intake Process - Components of SCI Open data 
 Submitted SCI datasets should have the following constituents:
 
-- Title: <Title of Dataset>
-- Description: <A full description of the dataset along with a overview of the methodology used>
-- Type of dataset: <Public/Private>
-- Environment/Context : <Laptop/PC, Cloud>
-- Logic used for computation: <>
-- Submitted by: <The name of the person(s) submitting the pattern>
-- Submitted Date : <>
-- Published Date: <The date this version of the pattern is published. This will be provided by the SCI Data working group upon approval>
-- Tag Category : <Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this dataset>
-- Tags: <A pre-defined list of additional tags which might apply to the Dataset(e.g. Machine Learning, Gaming, Mobile).>
+- Title: Title of Dataset
+- Description: A full description of the dataset along with a overview of the methodology used.
+- Type of dataset: Public/Private
+- Environment/Context : Laptop/PC, Cloud
+- Logic used for computation: 
+- Submitted by: The name of the person(s) submitting the pattern
+- Submitted Date : 
+- Published Date: The date this version of the pattern is published. This will be provided by the SCI Data working group upon approval
+- Tag Category : Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this dataset
+- Tags: A pre-defined list of additional tags which might apply to the Dataset(e.g. Machine Learning, Gaming, Mobile).
 - Solution: How will this dataset solve any open gap 
-- Assumptions: <What are the assumptions being made>
-- Not Applicable to : <Briefly describe the scenarios where we shouldnt apply this dataset.>
+- Assumptions: What are the assumptions being made
+- Not Applicable to : Briefly describe the scenarios where we shouldnt apply this dataset.
 
 # Review Parameters for SCI Open data
 When submitters submit a dataset, we need to come up with a common set of parameters that help provide a consistent basis for review. 
