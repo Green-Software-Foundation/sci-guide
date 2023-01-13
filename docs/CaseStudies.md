@@ -41,6 +41,14 @@ The application is a web application that is used in an ecommerce scenario by cu
 
 ---------
 
+### Microsoft - GreenAI
 
+**Overview**
+
+Machine Learning training consumes vast amounts of energy. In this test case, we will calculate the SCI delta between two convolutional neural networks (InceptionV3 and DenseNet) for an image classification scenario.
+
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/software_carbon_intensity/issues/216)
+
+---------
 
 
