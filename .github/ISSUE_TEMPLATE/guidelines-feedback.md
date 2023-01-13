@@ -1,8 +1,8 @@
 ---
 name: Guidelines Feedback
 about: Guidelines Feedback
-title: ''
-labels: ''
+title: Guidelines Feedback
+labels: Guidelines Feedback
 assignees: atg-abhishek, srini1978, Henry-WattTime, navveenb
 
 ---
