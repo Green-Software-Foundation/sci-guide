@@ -41,7 +41,7 @@ The application is a web application that is used in an ecommerce scenario by cu
 
 ---------
 
-### Microsoft - GreenAI
+## Microsoft - GreenAI
 
 **Overview**
 
