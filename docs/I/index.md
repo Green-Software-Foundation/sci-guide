@@ -18,3 +18,5 @@ Here are some techniques you can use to find out the value of carbon intensity.
  This is when you get the marginal carbon intensity value from data sources or emission databases.
 
 If the marginal carbon intensity is not available at runtime or delayed intervals for a given location/geography, you can go with monthly, quarterly or yearly average emission data based on data availability.
+
+**Please submit any comments you have [here](https://github.com/Green-Software-Foundation/sci-data/issues/new?assignees=atg-abhishek%2C+srini1978%2C+Henry-WattTime%2C+navveenb&labels=Guidelines+Feedback&template=guidelines-feedback.md&title=Guidelines+Feedback)**
