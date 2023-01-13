@@ -45,5 +45,5 @@ WE would calculate the SCI as follows:
     - SCI Score = 0.226 gC02e per API Call.
 
 
-
+**Please submit any comments you have [here](https://github.com/Green-Software-Foundation/sci-data/issues/new?assignees=atg-abhishek%2C+srini1978%2C+Henry-WattTime%2C+navveenb&labels=Guidelines+Feedback&template=guidelines-feedback.md&title=Guidelines+Feedback)**
 
