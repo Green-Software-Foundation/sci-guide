@@ -44,3 +44,5 @@ The explanation of each of the components in this formula is also given in the s
 
 ## Data Disclaimer
 Please note, the embodied data provided by the above approaches are approximation-based. We expect the embodied carbon data to be made readily available by vendors (device manufacturers, cloud providers, etc.) in the future. For instance, some of the managed services like API Gateway provided by the cloud vendors, don't disclose their server type/configuration. In the absence of server details, it would be difficult to calculate the embodied carbon for the server/hardware resources used by the software application. In such cases, you can go with approximation-based methods i.e. attributing a percentage of the total application carbon emissions.
+
+**Please submit any comments you have [here](https://github.com/Green-Software-Foundation/sci-data/issues/new?assignees=atg-abhishek%2C+srini1978%2C+Henry-WattTime%2C+navveenb&labels=Guidelines+Feedback&template=guidelines-feedback.md&title=Guidelines+Feedback)**
