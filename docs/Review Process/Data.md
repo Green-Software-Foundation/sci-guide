@@ -77,6 +77,8 @@ The working group will regularly review submitted patterns along the following t
 
 Approved dataset with documented note of the context in which this dataset should be used.
 
+**Please submit any comments you have [here](https://github.com/Green-Software-Foundation/sci-data/issues/new?assignees=atg-abhishek%2C+srini1978%2C+Henry-WattTime%2C+navveenb&labels=Guidelines+Feedback&template=guidelines-feedback.md&title=Guidelines+Feedback)**
+
 
 
 
