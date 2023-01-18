@@ -2,7 +2,7 @@
 name: Case-study template
 about: Case-study submissions
 title: Case-study submissions
-labels: ''
+labels: Case-study submissions
 assignees: atg-abhishek, Henry-WattTime, navveenb, srini1978
 
 ---
