@@ -6,7 +6,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // Change to Site title
-  title: "SCI Guidelines",
+  title: "SCI Guidance",
   // Change to site description
   tagline:
     "This Open Data project will provide all the necessary data sources that can be used as inputs for the SCI standard, for free.",
