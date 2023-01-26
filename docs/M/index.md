@@ -12,7 +12,7 @@ When software runs on a device, a fraction of the total embodied emissions of th
 
 Here are some of the techniques that can be used to get the embodied carbon value:
 
-#### 1) [ Lookup Embodied Database ](EmbodiedDatabase.md)
+#### 1) [ Lookup Embodied Database ](Datasets.md)
  This is when you look up available database/sources to get embodied carbon for the server/hardware resources used by the software application.
 
 #### 2) [ Manual Approach  ](ManualEmbodiedLookupProcess.md)

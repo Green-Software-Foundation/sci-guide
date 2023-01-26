@@ -6,9 +6,7 @@ sidebar_position: 1
 
 The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity,embodied emissions and functional unit values which are the core components of the SCI calculation.
 
-Internally the SCI guidance project also tries to provide references to various reference datasets that are available either in the public forums or with OEMs. These datasets point to reference values for E, I, M and R that are provided for standard configurations and are  approximations intended to help calculate the SCI score. 
-
-The SCI open data project which is a sub-project of SCI-guidance is intended to collate all such datasets and we could use the information available in the guidance project to help navigate through these datasets. Hence we would have a section beneath each of the components E, I, M and R that calls out reference SCI open datasets that can be leveraged for calculation of that component. 
+Internally the SCI guidance project also tries to provide pointers to various reference datasets that are available either in the public forums or with OEMs. These datasets point to reference values for E, I, M and R and are provided for standard configurations intended to help calculate the SCI score. Hence we would have a section beneath each of the components E, I, M and R that calls out reference SCI open datasets that can be leveraged for calculation of that component. 
 
 # SCI Calculation
 
