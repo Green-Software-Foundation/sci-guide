@@ -1,54 +1,55 @@
+Follow the instructions in [CONFIGURE.md](CONFIGURE.md) to learn how to configure this template repository.
 
-## Scope
-This Open Data project will provide all the necessary data sources that can be used as inputs for the SCI standard, for free. There may be more accurate data sources available to some users of the SCI, but this project is to create a baseline set of data to be used when this isn’t possible. At least the following data sets will be published:
+# PROJECT-TITLE
 
-- (I) - Emissions factors. These may be regional yearly averages to begin, but ideally marginal and at a finer granularity than that. 
-- (M) - Embodied Emissions data for servers, mobile devices and laptops 
-- (E) - Energy consumption (kilowatt hours) for different components of the software boundary, over a given time period. Examples:
-  - CPU/GPUs at different percentages of utilization
-  - Data storage
-  - Memory allocation
-  - Data transferred over a network
+SCI Open Data
 
-
-## Appointments 
-- Chair/Project lead - Chris Adams (Green Web Foundation)
-
-## Other Projects
-- [Awesome Green Software](https://github.com/Green-Software-Foundation/awesome-green-software)
-- [carbon-aware-sdk](https://github.com/Green-Software-Foundation/carbon-aware-sdk)
-
-## Resources
-
-* [Meeting Schedule - tbc]() (Members Only)
-* [Shared Google Drive](https://drive.google.com/drive/folders/1Ej6E8M78xVF0Bb-zaIuMpMucUER6TSQZ?usp=sharing) (GSF Members Only)
-* [Slack Channel](https://greensoftwarefdn.slack.com/archives/C02LW83D5CJ) (GSF Members Only)
+This is a project run through the [Community Working Group](https://grnsft.org/community-wg) in the [Green Software Foundation](https://greensoftware.foundation) and can be viewed through https://sci-data.greensoftware.foundation
 
 ## Copyright
-Innovation WG projects are copyrighted under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+This project is copyrighted under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Patent
-No Patent License. No patent licenses are granted for the Draft Deliverables or Approved Deliverables developed by this Working Group.
+
+No Patent License.
 
 ## License
-Innovation WG projects are licensed under the MIT License - see the [License.md](license/innovation-wg-license.md)file for details 
 
-## Dataset
-CDLA-Permissive-1.0
+This project is licensed under the MIT License - see the [LICENCE](LICENCE) file for details.
 
-## Collaborating With the WG
+## Contributing
 
-1. Create a [new Issue](https://github.com/Green-Software-Foundation/standards_wg/issues/new)
-2. Discuss Issue with WG --> Create PR if required
-3. PR to be submitted against the **DEV feature branch**
-4. PR discussed with the WG. If agreed, the WG Chair will merge into **DEV Feature branch**
- 
-<figure>
-	<img src="images/single-trunk-branch.svg" alt="GSF Single-Trunk Based Branch Flow">
-	<figcaption></figcaption>
-</figure>
+This project is open source and welcomes public contribution via issues, discussions and pull requests.
 
-5. See [The Way we Work](https://github.com/Green-Software-Foundation/standards_wg/blob/main/the_way_we_work.md) for futher details.
+Members of the Green Software Foundation also meet and discuss aspects of this project either in-person or virtual via email or video.
 
-## Help
-helpdesk@greensoftware.io
+Instructions for how to contribute to this project can be found in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Editing Content
+
+This project is a static website based on the project https://docusaurus.io, you can find more information about docusaurus here: https://docusaurus.io/docs
+
+The `docs` folder contains all of the material in this project, editing any file there in the `main` branch will update the website. If you are only interested in editing content on the website then you should not need to leave the `docs` folder.
+
+The documentation files use a format called markdown and they end in `.md` which supports certain basic styling features like so: https://docusaurus.io/docs/markdown-features
+
+## Developing Locally
+
+To edit this project on your local machine and see the output as it would be rendered on the website you will need `node` at least version 14 installed.
+
+We also recommend to use `yarn` as the package management solution as the deployment scripts use `yarn` not `npm`.
+
+`npm -g install yarn`
+
+`yarn install`
+
+Then to run the project locally type
+
+`yarn run docusaurus start`
+
+and visit https://localhost:3000 in your favorite browser or whatever the command above prints out in the terminal.
+
+## Site Configuration
+
+To edit attributes of the website, customize the menu, sidebar and footer for example, you will need to edit the `docusaurus.config.js` file, more information about the options that are present there can be found here: https://docusaurus.io/docs/api/docusaurus-config
