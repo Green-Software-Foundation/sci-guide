@@ -4,13 +4,27 @@ sidebar_position: 1
 
 # Getting Started
 
-This open data project details various approaches on how to get the data sources from data providers and public sources that are required for SCI calculation. The Open Data project also provides the methodology and calculation guidelines for embodied emissions.
+The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity,embodied emissions and functional unit values which are the core components of the SCI calculation.
 
-Please note that the data provided by the data providers are approximations intended to help calculate the SCI score. Once the SCI score is calculated, you can apply reduction principles across releases to reduce your carbon emissions and improve energy efficiency for your software application.
+Internally the SCI guidance project also tries to provide references to various reference datasets that are available either in the public forums or with OEMs. These datasets point to reference values for E, I, M and R that are provided for standard configurations and are  approximations intended to help calculate the SCI score. 
 
+The SCI open data project which is a sub-project of SCI-guidance is intended to collate all such datasets and we could use the information available in the guidance project to help navigate through these datasets. Hence we would have a section beneath each of the components E, I, M and R that calls out reference SCI open datasets that can be leveraged for calculation of that component. 
+
+# SCI Calculation
+
+SCI = ([E](./E) * [I](./I)) + [M](./M) per [R](./R) 
+
+
+- (E) - Energy consumption (kilowatt hours) for different components of the software boundary over a given time period. Examples:
+  - CPU/GPUs at different percentages of utilisation
+  - Data storage
+  - Memory allocation
+  - Data transferred over a network
+- (I) - Emissions factors. These may be regional yearly averages to begin with, but should ideally be marginal, and more granular than that.
+- (M) - Embodied emissions data for servers, mobile devices and laptops
 
 # Quick Guide 
-The quick guide shows you how to use SCI open data to get energy (E), embodied (M) emissions and carbon intensity (I) for a software application.
+This quick guide shows you how to use the information present in this guidance project to calculate energy (E), embodied (M) emissions and carbon intensity (I) for a software application.
 
 Imagine you want to calculate the SCI score for a software application running on a Google Cloud VM. The VM configuration is e2-standard-4 (4 CPU, 16GB RAM) and running in the US-East region.The software application scales by API and the average monthly requests are 20k. 
 
@@ -43,6 +57,14 @@ WE would calculate the SCI as follows:
     - TE = Total Embodied Emissions (the sum of LCA emissions for hardware components which we calculated in step 2. We have only included the server/hardware component running our application, but there might be other supporting infrastructures like racks, cooling water resources that we have excluded).
 
     - SCI Score = 0.226 gC02e per API Call.
+
+
+# Links
+
+- [Press Release FAQ](https://github.com/Green-Software-Foundation/pr-faqs/blob/main/live/green-software-principles.pr-faq.md)
+- [Main Website](https://training.greensoftware.foundation)
+- [Main GitHub Repository](https://github.com/Green-Software-Foundation/sci-guidance)
+
 
 
 **Please submit any comments you have [here](https://github.com/Green-Software-Foundation/sci-data/issues/new?assignees=atg-abhishek%2C+srini1978%2C+Henry-WattTime%2C+navveenb&labels=Guidelines+Feedback&template=guidelines-feedback.md&title=Guidelines+Feedback)**
