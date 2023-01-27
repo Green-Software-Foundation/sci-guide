@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Public Datasets for Energy Calculation
+#  Datasets 
 
 ### What public sources and references are available for energy estimates for computing resources​?
 Here are some sources and references you can use for estimating the energy of computing resources:

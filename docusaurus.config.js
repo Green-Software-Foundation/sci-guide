@@ -9,7 +9,7 @@ const config = {
   title: "SCI Guidance",
   // Change to site description
   tagline:
-    "This Open Data project will provide all the necessary data sources that can be used as inputs for the SCI standard, for free.",
+    "This guidance project will provide all the necessary information that can help a user do SCI calculations.",
   // Change to site url
   url: "https://sci-data.greensoftware.foundation/",
   baseUrl: "/",
@@ -18,7 +18,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "Green-Software-Foundation",
   // Change to GitHub repo name.
-  projectName: "sci-data",
+  projectName: "sci-data-guidance",
   deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "en",
@@ -34,7 +34,7 @@ const config = {
           routeBasePath: "/",
           // Change this to your repo.
           editUrl:
-            "https://github.com/Green-Software-Foundation/sci-data/tree/web",
+            "https://github.com/Green-Software-Foundation/sci-data-guidance/tree/web",
         },
         blog: false,
         theme: {
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "Github",
-                href: "https://github.com/Green-Software-Foundation/sci-data", // Change to project repo
+                href: "https://github.com/Green-Software-Foundation/sci-data-guidance", // Change to project repo
               },
               {
                 label: "Website",

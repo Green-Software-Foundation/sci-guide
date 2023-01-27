@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Embodied Database / Sources
+# Datasets
 
 ### What external data sources are available for getting embodied carbon for Cloud VM types?​
 

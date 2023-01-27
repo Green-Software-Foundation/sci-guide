@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 
-# Lookup Carbon Intensity Database / Sources
+# Datasets
 
 ### What external data sources are available for getting carbon intensity data?​
 
