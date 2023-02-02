@@ -12,7 +12,7 @@ Collaborative use case with Dow and Microsoft performed by Tammy McClellan and S
 
 Solution chosen is a current solution in development and is the measurement of carbon in both Neo4J and TigerGraph graph databases. Information was collected via load tests by calling an API deployed in an app service.
 
-[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/software_carbon_intensity/issues/335)
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-data-guidance/blob/dev/use-case-submissions/dow-msft-Graph-DB.md)
 
 ---------
 
@@ -27,7 +27,7 @@ TPC-W is designed for measuring performance and cost for performance in an envir
 In areas where it is difficult to measure, it is estimated by publication from trusted institutions.
 We assume life span of this system is 4 years, then M is divided by 35040 [hours] (4 [years] * 365 [days] * 24 [hours])
 
-[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/standards-wg/issues/36)
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-data-guidance/blob/dev/use-case-submissions/nttdatta-On-Premise-Web-system.md)
 
 ---------
 
@@ -37,7 +37,7 @@ We assume life span of this system is 4 years, then M is divided by 35040 [hours
 
 The application is a web application that is used in an ecommerce scenario by customers. It is a sample ASP.NET Core reference application, powered by Microsoft, demonstrating a single-process (monolithic) application architecture and deployment model.
 
-[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/software_carbon_intensity/issues/227)
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-data-guidance/blob/dev/use-case-submissions/msft-eShoppen.md)
 
 ---------
 
@@ -47,8 +47,14 @@ The application is a web application that is used in an ecommerce scenario by cu
 
 Machine Learning training consumes vast amounts of energy. In this test case, we will calculate the SCI delta between two convolutional neural networks (InceptionV3 and DenseNet) for an image classification scenario.
 
-[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/software_carbon_intensity/issues/216)
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-data-guidance/blob/dev/use-case-submissions/msft-green-ai.md)
 
 ---------
+## Farm-insights-Raspberry-Pi
 
+**Overview**
+
+.NET Core application running with temperature, humidity, sunlight, and soil moisture sensors. Running headless on a raspberry pi. I purchased a power meter and had the pi plugged into it. Ontology is device only.
+
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-data-guidance/blob/dev/use-case-submissions/farm-insights-Raspberry-Pi.md)
 
