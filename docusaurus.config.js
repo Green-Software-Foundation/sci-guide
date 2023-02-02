@@ -58,7 +58,7 @@ const config = {
     ({
       navbar: {
         // Change to project name
-        title: "SCI Guidelines",
+        title: "SCI Guidance",
         // Change to project logo
         logo: {
           alt: "Green Software SCI Open Data Logo",
