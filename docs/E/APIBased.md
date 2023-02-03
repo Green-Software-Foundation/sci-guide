@@ -30,7 +30,7 @@ Let’s take a look at a sample request and response to get the energy consumpti
 ```
 
 # Response:
-```bash
+```json
 {
     "co2e": 0.00057841,
     "co2e_unit": "kg",
