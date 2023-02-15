@@ -16,6 +16,7 @@ Let’s take a look at a sample request and response to get the energy consumpti
 
 
 # Request:
+```bash
  curl --request POST \
 --url https://beta3.api.climatiq.io/compute/azure/cpu \
 --header 'Authorization: Bearer API_KEY' \
@@ -26,8 +27,10 @@ Let’s take a look at a sample request and response to get the energy consumpti
     "duration": 1,
     "duration_unit": "h"
 }'
+```
 
 # Response:
+```json
 {
     "co2e": 0.00057841,
     "co2e_unit": "kg",
@@ -53,4 +56,4 @@ Let’s take a look at a sample request and response to get the energy consumpti
         "n2o": null
     }
 }
-
+```
