@@ -3,19 +3,21 @@ name: Use Case Article submission
 about: Describe this issue template's purpose here.
 title: "[Use Case Article]"
 labels: Use Case
-assignees: ''
+assignees: seanmcilroy29
 
 ---
 
 ## Executive Summary 
 ```Add comments here```
 
-### description of problem 
+### Description of problem 
 ```Add comments here```
 
-### how the use case solves the problem
+### How the use case solves the problem
 ```Add comments here```
 
-### main benefits of the solution
+### Main benefits of the solution
+```Add comments here```
 
-### what was the outcome, how were carbon emissions reduced
+### What was the outcome, how were carbon emissions reduced
+```Add comments here```
