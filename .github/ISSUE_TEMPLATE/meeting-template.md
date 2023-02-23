@@ -2,7 +2,7 @@
 name: Meeting Template
 about: To track principles project meeting agenda, minutes and attendance
 title: YYYY MM DD - Green Software Principles Agenda
-labels: Meeting
+labels: ''
 assignees: ''
 
 ---
