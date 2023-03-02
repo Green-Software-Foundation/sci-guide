@@ -3,7 +3,7 @@ name: Use Case Article submission
 about: Describe this issue template's purpose here.
 title: "[Use Case Article]"
 labels: Use Case
-assignees: seanmcilroy29
+assignees: seanmcilroy29, ursvill
 
 ---
 
