@@ -43,16 +43,19 @@ To use the API you need to use the VM instance endpoint. One of the key paramete
             },
 ~~~
 
-3. [Microsoft Emissions Impact Dashboard](https://www.climatiq.io/docs#cloud-computing)
+3. [Microsoft Emissions Impact Dashboard](https://azure.microsoft.com/en-us/blog/empowering-cloud-sustainability-with-the-microsoft-emissions-impact-dashboard/)
 
+Microsoft Emissions impact dashboard helps customers understand the carbon emissions associated with their Azure workloads. The dashboard helps show the emissions associated with Scope 3 —from materials extraction and manufacturing to transport, usage, and hardware disposal.
 
+Hence the embodied emissions for  software that are running on Azure can be extracted from the breakup of values shown in the dashboard.  
 
 
 ### What external data sources are available for getting embodied carbon for embodied emissions of laptops and computers?​
 
 For laptops or client devices, the specific manufacturer would have given the embodied emissions values. For instance, Dell provides [these values](https://i.dell.com/sites/content/corporate/corp-comm/en/Documents/dell-laptop-carbon-footprint-whitepaper.pdf) for its laptops. 
 
-Another general source of information is the [Boavista website](https://dataviz.boavizta.org/).
+Another general source of information is the [Boavista website](https://dataviz.boavizta.org/). Here the embodied emissions associated with different types of devices are available -laptop, on-premise servers, display terminals etc for consumption.
+
 
 ### What if the data for embodied carbon is not available for my hardware/server configuration?​
 
