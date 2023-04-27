@@ -11,7 +11,7 @@ const config = {
   tagline:
     "This guidance project will provide all the necessary information that can help a user do SCI calculations.",
   // Change to site url
-  url: "https://sci-data.greensoftware.foundation/",
+  url: "https://sci-guide.greensoftware.foundation/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -84,7 +84,7 @@ const config = {
               },
               {
                 label: "Website",
-                href: "https://sci-data.greensoftware.foundation",
+                href: "https://sci-guide.greensoftware.foundation",
               },
             ],
           },

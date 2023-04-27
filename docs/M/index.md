@@ -40,7 +40,7 @@ TR = Total Resources, meaning the total number of resources available.
 
 The explanation of each of the components in this formula is also given in the specification.
 
-[Refer to these guidelines](https://sci-data.greensoftware.foundation/M/MSubCalculations) to calculate the above values.
+[Refer to these guidelines](https://sci-guide.greensoftware.foundation/M/MSubCalculations) to calculate the above values.
 
 ## Data Disclaimer
 Please note, the embodied data provided by the above approaches are approximation-based. We expect the embodied carbon data to be made readily available by vendors (device manufacturers, cloud providers, etc.) in the future. For instance, some of the managed services like API Gateway provided by the cloud vendors, don't disclose their server type/configuration. In the absence of server details, it would be difficult to calculate the embodied carbon for the server/hardware resources used by the software application. In such cases, you can go with approximation-based methods i.e. attributing a percentage of the total application carbon emissions.

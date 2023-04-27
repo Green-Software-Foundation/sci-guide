@@ -59,7 +59,7 @@ Another general source of information is the [Boavista website](https://dataviz.
 
 ### What if the data for embodied carbon is not available for my hardware/server configuration?​
 
-When the data is not available, you can use the [manual approach](https://sci-data.greensoftware.foundation/M/ManualEmbodiedLookupProcess) to get the data for your hardware/server configuration.
+When the data is not available, you can use the [manual approach](https://sci-guides.greensoftware.foundation/M/ManualEmbodiedLookupProcess) to get the data for your hardware/server configuration.
 
 #### References
 
