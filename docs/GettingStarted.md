@@ -13,7 +13,7 @@ WE would calculate the SCI as follows:
 - Energy - For energy, we check the [list of options](https://sci-guide.greensoftware.foundation/E) and select [API based techniques](https://sci-guide.greensoftware.foundation/E/APIBased). Next, we choose the API vendor  
 [Climatiq](https://www.climatiq.io/docs#cpu) which calculates C02e emissions directly based on CPU utilisation data, VPCU and location details. We can get the CPU utilisation data from cloud metrics. The API uses publicly available average data for carbon intensity for a given electricity grid, based on the location and a mix of local energy sources. When we call the API, the C02e of the VCPU comes back as 1,329 gC02e
 
-- Embodied emissions - For embodied emissions, we check the [list of options](https://sci-guide.greensoftware.foundation/M) and select [Lookup Embodied Database](https://sci-data.greensoftware.foundation/M/Datasets). When we look up the embodied emission of the server type e2-standard-4, we get 1230.3 kgCO₂eq
+- Embodied emissions - For embodied emissions, we check the [list of options](https://sci-guide.greensoftware.foundation/M) and select [Lookup Embodied Database](https://sci-guide.greensoftware.foundation/M/Datasets). When we look up the embodied emission of the server type e2-standard-4, we get 1230.3 kgCO₂eq
 
 - To calculate expected lifespan (EL), time reserved (TR), resource reserved (RR) and total resources (TR), check the [embodied calculations](https://sci-guide.greensoftware.foundation/M/MSubCalculations) page for general guidelines. We find the following values:
 
