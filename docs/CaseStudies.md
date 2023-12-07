@@ -64,3 +64,12 @@ Machine Learning training consumes vast amounts of energy. In this test case, we
 This document describes a system that can accurately measure the energy consumption of application software. Instead of relying on energy measurement circuits that are integrated into the computer’s motherboard the whole computer is treated as a black-box and the electrical energy provided to the device is accurately measured using a high-precision benchtop power supply. The precision of the energy measurements is 0.01 Watts. The first part of the document describes the hardware and software architecture of the system. It provides all the necessary details to build a complete system. Part 2 covers a typical use case and workflow for measuring the energy consumption of a software product.
 
 [Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/AVEVA_case_study.md)
+
+----------
+## Endava-Fraud Detection API case study
+**Overview**
+
+We analyzed a fraud detection tool, deployed and maintained by our organization, which scans online transactions and gives it a risk score. 
+
+[Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/a1df2ad6b4bfedd3743b716369edb8fabdd9f844/use-case-submissions/Endava-Fraud%20Detection%20API%20case%20study.md)
+
