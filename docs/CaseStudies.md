@@ -61,12 +61,15 @@ Machine Learning training consumes vast amounts of energy. In this test case, we
 ----------
 ## Aveva Case Study
 
+**Overview**
+
 This document describes a system that can accurately measure the energy consumption of application software. Instead of relying on energy measurement circuits that are integrated into the computer’s motherboard the whole computer is treated as a black-box and the electrical energy provided to the device is accurately measured using a high-precision benchtop power supply. The precision of the energy measurements is 0.01 Watts. The first part of the document describes the hardware and software architecture of the system. It provides all the necessary details to build a complete system. Part 2 covers a typical use case and workflow for measuring the energy consumption of a software product.
 
 [Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/AVEVA_case_study.md)
 
 ----------
 ## Endava-Fraud Detection API case study
+
 **Overview**
 
 We analyzed a fraud detection tool, deployed and maintained by our organization, which scans online transactions and gives it a risk score. 
@@ -76,6 +79,7 @@ We analyzed a fraud detection tool, deployed and maintained by our organization,
 ------------
 ## UBS SCI case study
 **Overview**
+
 This document describes the testing the SCI of two software applications. The first software application is for an Investment Bank and the other in Asset Management. We wanted to baseline the carbon emissions for these two software applications, to determine the data that is currently available in the organisation for the calculations.
 
 [Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/UBS_SCI_use_case.md)
@@ -83,6 +87,7 @@ This document describes the testing the SCI of two software applications. The fi
 -----------
 ## Automated SCI Measurements with Green Metrics Tool
 **Overview**
+
 The Green Metrics Tool (GMT) is an open-source software solution designed to automate the generation of the Software Carbon Intensity (SCI) metric for a given software. It acts as a container native benchmarking tool, simulating typical software interactions and measuring parameters such as machine energy, CPU energy, and network traffic. In other words, the GMT mimics the software and inspects how much electricity the computer uses, how hard the processor (CPU) is working, and how much data is being sent over the internet.
 
 [Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/Automated_SCI_Measurements_with_Green_Metrics_Tool.md)
