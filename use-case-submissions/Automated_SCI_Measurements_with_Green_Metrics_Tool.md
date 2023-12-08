@@ -1,56 +1,109 @@
-## Automated SCI Measurements with Green Metrics Tool
+#  Simple and automated SCI measurements
 
-### Teaser
-The Green Metrics Tool is a free, open-source software that offers an initial implementation for automatically generating the SCI metric.
+## Executive Summary
+The Green Metrics Tool (GMT) is an open-source software solution that provides the capabilities of automating the process
+of generating an SCI metric for a given piece of software. 
 
-### Summary
-The Green Metrics Tool (GMT) is an open-source software solution designed to automate the generation of the Software Carbon Intensity (SCI) metric for a given software. It acts as a container native benchmarking tool, simulating typical software interactions and measuring parameters such as machine energy, CPU energy, and network traffic. In other words, the GMT mimics the software and inspects how much electricity the computer uses, how hard the processor (CPU) is working, and how much data is being sent over the internet. 
+The GMT is essentially a container native benchmarking tool that instruments a software according to a so called *usage scenario*. 
+Which describes the usual interaction with the software in an computer executable fashion. 
+While executing this scenario different measurement sources are polled like machine energy, cpu energy, network traffic etc. and then put into context with a unit of work.
 
-By supplying specific input variables and instrumenting the software to output a unit of work variable, the GMT automatically calculates the SCI metric. Teams can integrate this instrumentation into a standard DevOps infrastructure as code, such as Docker compose files, and into a Git repository, enabling businesses to easily include carbon footprint assessments in their software development processes.
+When supplying the basic input variables to the SCI like (I, EL, RS, TE) and instrumenting the software so that it outputs the unit of work variable (R) to a standard output stream the tool automatically generates the SCI metric. 
 
-### Limitations of the SCI as a starting point
-When evaluating software energy efficiency, comparing the work with the total energy cost is common. The SCI takes this a step further by considering embodied carbon and current carbon grid intensity. Unfortunately, the SCI currently lacks a reference implementation in open-source software, making it challenging to derive, reproduce, and validate. Additionally, there's no straightforward way to continuously track the SCI without automation.
+All of this instrumentation is fixated in a typical DevOps like standard infrastructure as code (for instance Docker compose files) and can be part of the git repository. 
+Thus, businesses can seamlessly integrate carbon footprint assessments into their software development pipelines, fostering a culture of sustainability.
 
-### An automated benchmarking approach
-The solution to the problem involves using an automated benchmarking approach, which simplifies and helps to replicate the SCI metric consistently. The Green Metrics Tool is a free, open-source software that offers an initial implementation for automatically generating the SCI metric.
+## Description of problem
 
-The tool provides the necessary software for local measurement setups. It offers reference hardware for running measurements with specialized hardware and software at no cost. To use the GMT, start with a Git repository and add a simple, well-documented usage scenario file. Submit the repository to the GMT cluster for automatic benchmarking. Users can run benchmarks at specified intervals, enabling detailed tracking of the software's energy efficiency over time. Any changes to the software get reflected immediately in the published SCI score.
+When talking about the energy efficiency of a software it is a common approach to look at the work done and also at the total energy cost and put these metrics in relation to one another. The SCI goes one step further and also adds the embodied carbon as well as the current carbon grid intensity. However so far the SCI has to be manually derived and there is no reference implementation in an open source software
+that showcases the process and also makes it reproducible. This makes the SCI less approachable and also harder to replicate and validate. 
+There is also no way to easily track SCI over time with a fine resolution as the measurement can not be automatically made.
 
-### Wagtail - sample case
+## The solution / How the use case solves the problem
 
-Wagtail is a popular open-source CMS based on Django, which comes with a detailed reference implementation: The Bakery. In a clone of the repository, we added the needed instrumentation files and defined the required SCI variables. To make it reproducible, we used the freely usable machines in the GMT measurement cluster and their respective lifetime and embodied carbon values.
+By using an automated benchmark approach the process of generating the SCI metric is not only easier, but also reproducible.
+When the to be benchmarked software also is open source it additionally allows for the possbilty to validate the metrics by the open source community.
 
-As the unit of work in Wagtail, we defined R as the per-page visited since, as a CMS, its primary use is offering a framework that creates websites mainly visited by a browser. The SCI value we are calculating here, as an example, is the carbon cost per webpage viewed. The SCI score here is ~0.02 gCO2e/page request.
+As a free and open-source software (FOSS) the Green Metrics Tool presents a first approach to an implementation of automatically and reproducible generating the SCI metric.
 
-### Exemplary SCI values for Wagtail page visits
+The tool not only provides all the software to set up a measurement locally, but also a [reference hardware](https://docs.green-coding.berlin/docs/installation/installation-cluster/) where
+measurements can be [run for free](https://metrics.green-coding.berlin/request.html) with specialized measurement hardware and software.
+This allows everyone to trace back claims and also generates better results as it is not feasible for an individual or small company to invest in a dedicated measurement cluster, when just starting with green software practices.
 
-![image](https://github.com/Green-Software-Foundation/sci-guide/assets/8318213/3efaeedb-0dab-4f1b-bc9b-eee66e202204)
+Starting with a *git* repository the software needs a simple *usage scenario* file which is
+[extensively documented](https://docs.green-coding.berlin) and also [many example implementations](https://github.com/green-coding-berlin/example-applications) are provided. Once the *usage scenario* file has been added the repo can be submitted the the GMT cluster and will automatically benchmarked. It is also possible to run the benchmark on every commit or in any other timely matter. This enables a detailed tracking of the software over time. Also changes on the software are reflected right away in the SCI score published.
 
-Case link: https://metrics.green-coding.berlin/stats.html?id=6e4936e0-2a78-4f5b-afe2-1299ed37a964
+### Example case - Wagtail
 
-### Nextcloud Talk - sample case
-Nextcloud is a well-known open-source software that enables users to create a self-hosted platform similar to Google Workspaces. In this case, we employed standard Nextcloud Docker images to initiate a Talk session involving multiple users. We executed the scenario using Chrome browsers in headless mode. Once again, we utilized a machine from the freely available GMT measurement cluster to ensure reproducibility, along with associated lifetime and embodied carbon values.
-The specific SCI calculated here is the carbon cost per Talk message, which resulted in 0.15 grams of CO2 equivalent per Talk message.
+Wagtail is a popular open-source CMS based on Django which comes with a detailed reference implementation: *The Bakery*.
 
-### Exemplary SCI values for Nextcloud Talk
+In a clone of the repository we added the needed instrumentation files and defined the needed SCI variables.
 
-![image](https://github.com/Green-Software-Foundation/sci-guide/assets/8318213/cdef43d7-c2a8-49cb-8096-d306932f211d)
+To make it reproducible we used the machines that are freely usable in the [Green Metrics Tool measurement cluster](https://docs.green-coding.berlin/docs/installation/installation-cluster/)
+and their respective lifetime and embodied carbon values.
 
-Case link: https://metrics.green-coding.berlin/stats.html?id=84645f34-2195-43e2-8c61-dcb3afe37120
+As the unit of work in Wagtail we defined R as the *per page visited*, since it is a CMS and one of it's main use cases
+is offering a framework that creates websites that are mainly visited by a browser.
 
-### The broad applicability of the tool
+The SCI value we are calculating here, as an example, is the cost *webpage viewed*. The SCI here is **0.02 gCO2e/page request**
 
-We have started to benchmark various open-source projects, aiming to track the development of the SCI over time and evaluate how design decisions impact these benchmarks. The effort also demonstrates the ease of integrating SCI into software. The monitored applications include Wagtail, WordPress, Django, and Nextcloud. You can find those projects here.
-Other projects that demonstrate the broad applicability of the tool:
+Example case link: https://metrics.green-coding.berlin/stats.html?id=6e4936e0-2a78-4f5b-afe2-1299ed37a964
+
+<figure>
+<img width="1434" alt="Screenshot 2023-09-11 at 2 01 45 PM" src="https://github.com/Green-Software-Foundation/sci-guide/assets/250671/c5360e10-5e2f-41b4-8190-7bedf9e45292">
+<figcaption>Exemplary SCI values for Wagtail page visits</figcaption>
+</figure>
+
+### Example case - Nextcloud Talk
+
+Nextcloud is another very prominent open source software that allows to set up a Google Workspaces like platform on ones own infrastructure.
+
+Here we used the standard Nextcloud docker images and then initiated a Talk session betwen multiple users. The scenario is run with Chrome browsers running in headless mode.
+
+Also, to make it reproducible, we used one of the machines that are freely usable in the [Green Metrics Tool measurement cluster](https://docs.green-coding.berlin/docs/installation/installation-cluster/)
+and their respective lifetime and embodied carbon values.
+
+The SCI value we are calculating here as an example is the cost *per Talk message*. The SCI here is **0.15 gCO2e/Talk Message**
+
+Example case link: https://metrics.green-coding.berlin/stats.html?id=84645f34-2195-43e2-8c61-dcb3afe37120
+
+<figure>
+<img width="1197" alt="Screenshot 2023-09-11 at 12 24 23 PM" src="https://github.com/Green-Software-Foundation/sci-guide/assets/250671/6da3b17f-a885-4d7e-b575-358ade8ea886">
+<figcaption>Exemplary SCI values for Nextcloud Talk</figcaption>
+</figure>
+
+
+
+### Further example cases
+
+We have started benchmarking various open source projects. With the aim to see how the SCI developes over time and how design decisions affect the benchmark. Also it illustrates how simple it is to add the the SCI to a piece of software. The idea to monitor various projects is called [Energy ID](https://www.green-coding.berlin/projects/energy-id/)
+
+At the moment this includes:
+
+- Wagtail
+- Wordpress
+- Django
+- Nextcloud
+
+However, we also have other example projects to highlight the broad applicability
+
 - [Algorithmic / AI workloads](https://github.com/green-coding-berlin/example-applications/tree/main/green-software-foundation-sci/static-algorithm)
 - [APIs](https://github.com/green-coding-berlin/example-applications/tree/main/green-software-foundation-sci/simple-api)
 - [Idle scenarios](https://github.com/green-coding-berlin/example-applications/tree/main/green-software-foundation-sci/idle)
 
-It's important to note that energy consumption is not a static metric but a dynamic one. With a timeline of the software's development, create badges to display how the software performs based on resource usage to elevate the SCI metric's significance in the deployment process.
+It's crucial to understand that energy consumption isn't a static metric but a dynamic one. As we now have a timeline over the development of the software we can create badges that showcase how the software performs in relation to resource usage. Thus hopefully making the metric a first class citizen in deployment.
 
-### Why use automation to generate the SCI metric?
-In today's rapidly evolving tech landscape, the need for sustainable, energy-efficient solutions has never been more pressing. The SCI provides an easily digestible metric to get a first glimpse at your application’s energy and carbon profile. We can democratize access to this vital metric using open-source tools, allowing a wider community of developers, researchers, and institutions to leverage it.
+<figure>
+<img width="1195" alt="Screenshot 2023-09-19 at 12 07 21 PM" src="https://github.com/Green-Software-Foundation/sci-guide/assets/250671/41cd04dc-9b3e-42b0-810d-4e04d5f02d5b">
+<figcaption>Looking at the SCI over time</figcaption>
+</figure>
 
-The power of automation cannot be understated. With manual processes often proving cumbersome and error-prone, our software streamlines the process by automatically generating the SCI metric, which saves valuable time and ensures precision and consistency.
+## Why should you use automation to generate your SCI metric?
 
-Did you know you can submit your own use case to the GSF? [Here is how to get started.](https://github.com/Green-Software-Foundation/sci-guide/issues/new?assignees=atg-abhishek%2C+Henry-WattTime%2C+navveenb%2C+srini1978&labels=Case-study+submissions&template=case-study-template.md&title=Case-study+submissions)
+In today's rapidly evolving tech landscape, the need for sustainable, energy-efficient solutions has never been more pressing.
+
+The SCI provides an easily digestible metric to get a first glimpse at the energy and carbon profile of your application.
+
+By levering open-source tools this democratizes access to this vital metric, allowing a wider community of developers, researchers, and institutions to leverage it.
+
+The power of automation cannot be understated. With manual processes often proving cumbersome and error-prone, our software streamlines the process by automatically generating the SCI metric. This not only saves valuable time but also ensures precision and consistency.
