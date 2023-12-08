@@ -80,3 +80,10 @@ This document describes the testing the SCI of two software applications. The fi
 
 [Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/UBS_SCI_use_case.md)
 
+-----------
+## Automated SCI Measurements with Green Metrics Tool
+**Overview**
+The Green Metrics Tool (GMT) is an open-source software solution designed to automate the generation of the Software Carbon Intensity (SCI) metric for a given software. It acts as a container native benchmarking tool, simulating typical software interactions and measuring parameters such as machine energy, CPU energy, and network traffic. In other words, the GMT mimics the software and inspects how much electricity the computer uses, how hard the processor (CPU) is working, and how much data is being sent over the internet.
+
+[Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/Automated_SCI_Measurements_with_Green_Metrics_Tool.md)
+
