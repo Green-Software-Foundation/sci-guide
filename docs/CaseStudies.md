@@ -74,7 +74,7 @@ We analyzed a fraud detection tool, deployed and maintained by our organization,
 [Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/a1df2ad6b4bfedd3743b716369edb8fabdd9f844/use-case-submissions/Endava-Fraud%20Detection%20API%20case%20study.md)
 
 ------------
-## USB SCI case study
+## UBS SCI case study
 **Overview**
 This document describes the testing the SCI of two software applications. The first software application is for an Investment Bank and the other in Asset Management. We wanted to baseline the carbon emissions for these two software applications, to determine the data that is currently available in the organisation for the calculations.
 
