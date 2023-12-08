@@ -49,8 +49,7 @@ To calculate the total operational emissions, we also factored in virtual machin
 metric value “Resource Share” and the time the software is operating on the hardware per hour using
 the metric value “Operating Time”.
 
-> **Total operational emissions** = ( **E** (Energy) * **I** (Location based marginal carbon intensity) *
-> **RS** (Resource share) * **OT**(Operating time*) )
+> **Total operational emissions** = ( **E** (Energy) * **I** (Location based marginal carbon intensity) * **RS** (Resource share) * **OT**(Operating time*))
 
 **Energy (E)** – the maximum energy used by the hardware. This data is captured for all servers in the
 central application database.
@@ -66,8 +65,7 @@ the hardware usage data.
 total hours per year equates to 8760 hours. To determine the hourly operational emissions, we
 performed the following calculation:
 
-**Total operational emissions per hour** = ( **E** (Energy) * **I** (Location based marginal carbon intensity) * <br>
-**RS** (Resource share) )
+> **Total operational emissions per hour** = (**E** (Energy) * **I** (Location based marginal carbon intensity) * **RS** (Resource share))
 
 ## Embodied Emissions (M)
 In the SCI specification the embodied emissions are calculated as:
