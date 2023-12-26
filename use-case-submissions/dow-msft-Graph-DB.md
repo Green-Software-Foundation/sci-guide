@@ -72,7 +72,7 @@ M=1533.12 * (1/35040) * (2/64)= 0.0014kg, ~1.4 gCO2e	 ((total embodied coefficie
 M=1533.12 * (1/35040) * (1/8) = 0.0054kg, 5.47gCO2e	((Total Embodied Coefficient * (1 hour/3 years of use) * (instance CPU/ platform CPU) )
 Total M = 6.87	1.4 + 5.47
 
-> SCI Total for TigerGraph DB = (0.110 kwh * 554 gCO2e/KwH) + 6.87 gCO2e = 67.81 kgCO2e
+> SCI Total for TigerGraph DB = (0.110 kwh * 554 gCO2e/KwH) + 6.87 gCO2e = 67.81 gCO2e
 
 
 #### TigerGraph API
