@@ -4,6 +4,21 @@ sidebar_position: 8
 
 # Case Study Submissions
 
+## CAST Use Case
+
+**Overview**
+CAST used a combination of the SCI formula and its own automated software intelligence technology (CAST Highlight) to measure the estimated reduction in carbon emissions after decarbonizing a software application.
+
+The results show that decarbonizing a single application could potentially reduce annual CO2 emissions by an estimated 400 kg.
+
+These results are being used to develop a model within CAST Highlight that can be used to automatically estimate the potential CO2 emissions savings for any application.
+
+A summary of the story is also attached as a PDF for reference in addition to the the details provided as part of this template.
+
+[Review full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/CAST_use_case.md)
+
+---------
+
 ## DOW / Microsoft submission - Graph DB Use Case
 
 **Over view**
