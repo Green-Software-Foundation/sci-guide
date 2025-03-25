@@ -11,10 +11,10 @@ The carbon intensity of electricity is a measure of how much carbon (CO2eq) emis
 Here are some techniques you can use to find out the value of carbon intensity.  
 
 #### 1) [ API based techniques ](APIBased.md)
- This is when you integrate your software with APIs that provide the marginal carbon intensity at runtime or at delayed intervals (i.e every 15 minutes).
+ This is when you integrate your software with APIs that provide the carbon intensity at runtime or at delayed intervals (i.e every 15 minutes).
 #### 2) [ Lookup Carbon Intensity Database / Sources  ](Datasets.md)
- This is when you get the marginal carbon intensity value from data sources or emission databases.
+ This is when you get the carbon intensity value from data sources or emissions databases.
 
-If the marginal carbon intensity is not available at runtime or delayed intervals for a given location/geography, you can go with monthly, quarterly or yearly average emission data based on data availability.
+If the carbon intensity is not available at runtime or delayed intervals for a given location/geography, you can go with monthly, quarterly or yearly average emissions data based on data availability.
 
 **Please submit any comments you have [here](https://github.com/Green-Software-Foundation/sci-data/issues/new?assignees=atg-abhishek%2C+srini1978%2C+Henry-WattTime%2C+navveenb&labels=Guidelines+Feedback&template=guidelines-feedback.md&title=Guidelines+Feedback)**
