@@ -113,3 +113,17 @@ All of this instrumentation is fixated in a typical DevOps like standard infrast
 
 [Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/Automated_SCI_Measurements_with_Green_Metrics_Tool.md)
 
+-----------
+## AFAS SB Enterprise Software Application Carbon Assessment
+**Overview**
+
+
+- AFAS SB is a cloud-native financial administration platform developed by AFAS Software serving 7,540 unique users with approximately 90% weekly retention rate
+- The platform implements a multi-tenant CQRS (Command Query Responsibility Segregation) architecture deployed on Microsoft Azure Service Fabric
+- This case study demonstrates SCI methodology application combining production baseline assessment with controlled experimental optimization
+- Key finding: Garbage collection optimization achieved 29.5-30.6% carbon reduction, with disk I/O operations identified as the primary factor associated with carbon emissions (r = 0.997)
+- Complete methodology, data, and replication package available at: https://github.com/rutgerkool/msc-thesis-sci-2025
+
+[Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/AVEVA_case_study.md)
+
+
