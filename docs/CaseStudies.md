@@ -124,6 +124,6 @@ All of this instrumentation is fixated in a typical DevOps like standard infrast
 - Key finding: Garbage collection optimization achieved 29.5-30.6% carbon reduction, with disk I/O operations identified as the primary factor associated with carbon emissions (r = 0.997)
 - Complete methodology, data, and replication package available at: https://github.com/rutgerkool/msc-thesis-sci-2025
 
-[Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/AVEVA_case_study.md)
+[Review the full Case Study and submit comments here](https://github.com/Green-Software-Foundation/sci-guide/blob/dev/use-case-submissions/AFAS_case_study.md)
 
 
