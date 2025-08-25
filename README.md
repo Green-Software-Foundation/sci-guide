@@ -4,7 +4,7 @@ Follow the instructions in [CONFIGURE.md](CONFIGURE.md) to learn how to configur
 
 SCI Open Data
 
-This is a project run through the [Standards Working Group](https://standards.greensoftware.foundation/) in the [Green Software Foundation](https://greensoftware.foundation) and can be viewed through https://sci-data.greensoftware.foundation
+This is a project run through the [Standards Working Group](https://standards.greensoftware.foundation/) in the [Green Software Foundation](https://greensoftware.foundation) and can be viewed through https://sci-guide.greensoftware.foundation/
 
 ## Copyright
 
