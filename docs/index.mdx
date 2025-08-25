@@ -2,11 +2,28 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# 🌳 Getting Started
 
 The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity, embodied emissions and functional unit values which are the core components of the SCI calculation.
 
 Internally the SCI guidance project also tries to provide pointers to various reference datasets that are available either in the public forums or with OEMs. These datasets point to reference values for E, I, M and R and are provided for standard configurations intended to help calculate the SCI score. Hence we would have a section beneath each of the components E, I, M and R that calls out reference SCI open datasets that can be leveraged for calculation of that component.
+
+
+O **Projeto de Orientação do Índice de Carbono Incorporado (SCI)** é uma ferramenta essencial para compreender e aplicar metodologias relacionadas ao cálculo desse índice. O SCI é uma métrica que avalia o impacto ambiental de produtos, processos ou serviços, considerando não apenas as emissões diretas, mas também as indiretas ao longo de todo o ciclo de vida. Vamos explorar cada um dos componentes do SCI:
+
+1. **Energia (E):** A seção dedicada à energia abrange a análise do consumo energético associado a um produto ou processo. Aqui, consideramos fontes de energia, eficiência energética e fatores de conversão específicos. Por exemplo, ao calcular a energia incorporada em um edifício, devemos levar em conta a eletricidade consumida durante a construção, operação e eventual demolição. Além disso, é crucial distinguir entre fontes renováveis (como solar e eólica) e não renováveis (como combustíveis fósseis).
+
+
+2. **Intensidade de Carbono (I):** A intensidade de carbono mede as emissões de gases de efeito estufa (principalmente CO₂) geradas por unidade de produção ou consumo. Para calcular essa intensidade, devemos considerar todas as etapas do ciclo de vida. Por exemplo, ao avaliar um automóvel, incluímos as emissões da fabricação, uso (combustível) e descarte. A escolha de materiais, processos produtivos e transporte afeta diretamente a intensidade de carbono.
+
+
+3. **Emissões Incorporadas (M):** A pegada de carbono, também conhecida como emissões incorporadas, é um aspecto crítico. Ela engloba todas as emissões associadas ao produto, desde a extração de matérias-primas até o fim de sua vida útil. Ao construir uma casa, por exemplo, devemos considerar as emissões da produção de cimento, aço, transporte de materiais e até mesmo a energia usada para aquecimento e resfriamento. Dados de referência são essenciais para estimar com precisão essas emissões.
+
+
+4. **Valores de Unidade Funcional (R):** A unidade funcional é a base para comparar diferentes produtos ou serviços. O projeto de orientação fornece diretrizes sobre como definir essa unidade funcional, considerando aspectos como desempenho, durabilidade, vida útil e funcionalidade. Por exemplo, ao comparar dois tipos de lâmpadas, podemos definir a unidade funcional como "iluminar um ambiente por 1.000 horas". Isso nos permite avaliar a eficiência energética, a durabilidade e o impacto ambiental de cada opção.
+
+
+Em resumo, o projeto de orientação SCI oferece suporte para calcular o SCI de maneira robusta e transparente, utilizando dados de referência confiáveis. Esses conjuntos de dados abertos SCI são essenciais para garantir que as avaliações sejam consistentes e informadas. A integração desses componentes permite uma análise holística do impacto ambiental, auxiliando empresas, pesquisadores e formuladores de políticas na tomada de decisões sustentáveis.
 
 
 # SCI Calculation
@@ -21,3 +38,98 @@ SCI = ([E](./E) * [I](./I)) + [M](./M) per [R](./R)
   - Data transferred over a network
 - (I) - Emissions factors. These may be regional yearly averages to begin with, but should ideally be more granular than that.
 - (M) - Embodied emissions data for servers, mobile devices and laptops
+
+---
+
+
+# Cálculo do Índice de Carbono Incorporado (SCI)
+
+O **Índice de Carbono Incorporado (SCI)** é uma métrica essencial para avaliar o impacto ambiental de produtos, processos ou serviços. Ele considera tanto o consumo de energia quanto as emissões associadas ao ciclo de vida de um sistema ou equipamento.
+
+
+
+## Componentes do SCI
+
+1. **Consumo de Energia (E):**
+   - Representa o consumo de energia em quilowatts-hora (kWh) ao longo de um período específico.
+   - Exemplos incluem o uso de CPU/GPUs em diferentes porcentagens, armazenamento de dados, alocação de memória e transferência de dados por rede.
+
+2. **Fatores de Emissão (I):**
+   - Refletem as emissões de gases de efeito estufa associadas à produção e uso de energia.
+   - Os fatores variam conforme a fonte de energia (renovável ou não). Idealmente, devem ser mais granulares e marginais.
+
+3. **Emissões Incorporadas (M):**
+   - Consideram as emissões ao longo do ciclo de vida do equipamento.
+   - Incluem extração de matérias-primas, fabricação, transporte e descarte.
+   - Dados específicos para servidores, dispositivos móveis e laptops ajudam a estimar essa pegada de carbono.
+
+4. **Valores de Unidade Funcional (R):**
+   - A unidade funcional define o contexto da comparação.
+   - Exemplos: "um servidor em operação por um ano" ou "um laptop usado por 5 anos".
+
+
+
+
+## Fórmula do SCI
+
+O cálculo do SCI segue a fórmula:
+
+$$SCI = (E \cdot I) + M \div R$$
+
+Em nosso exemplo prático para um servidor de data center:
+
+- Consumo de energia: 10.000 kWh
+- Fator de emissão médio: 0,5 kg CO₂/kWh
+- Emissões incorporadas: 1.000 kg CO₂
+- Unidade funcional: "um servidor em operação por um ano"
+
+
+Calculamos:
+
+$$SCI = (10.000 \, \text{kWh} \cdot 0,5 \, \text{kg CO₂/kWh}) + 1.000 \, \text{kg CO₂} = 6.000 \, \text{kg CO₂}$$
+
+Portanto, o SCI desse servidor é de 6.000 kg de CO₂ por ano. Essa métrica nos ajuda a tomar decisões sustentáveis e conscientes. Lembre-se de que, na prática, os cálculos podem ser mais complexos, considerando outros fatores específicos do servidor e do data center. 
+
+---
+
+
+### 🌿 Alguns dos desafios associados a essa estimativa incluem:
+
+1. **Complexidade do Ciclo de Vida:** O ciclo de vida completo de um produto envolve várias etapas, desde a extração de matérias-primas até o descarte. Rastrear todas essas fases e quantificar as emissões em cada uma é desafiador.
+
+2. **Dados Dispersos e Incompletos:** Obter dados detalhados sobre processos específicos, materiais e transporte pode ser difícil. Além disso, muitas vezes os dados estão incompletos ou não padronizados.
+
+3. **Variabilidade Regional e Setorial:** As emissões incorporadas variam conforme a região geográfica e o setor industrial. Considerar essas diferenças é essencial para estimativas precisas.
+
+4. **Mudanças no Uso da Terra:** O desmatamento, urbanização e mudanças no uso da terra afetam diretamente as emissões incorporadas. Essas mudanças são dinâmicas e difíceis de prever.
+
+5. **Metodologias e Fatores de Emissão:** Existem diferentes metodologias para calcular as emissões incorporadas. Além disso, os fatores de emissão podem variar, tornando a comparação entre produtos desafiadora.
+
+6. **Invasões e Desmatamento:** A invasão de terras indígenas e unidades de conservação pode alterar significativamente as remoções de carbono, afetando as estimativas.
+
+
+
+
+### 🌱 Estimar as emissões incorporadas requer dados detalhados, consideração das particularidades regionais e uma abordagem holística para compreender todo o ciclo de vida.
+
+As emissões incorporadas desempenham um papel crucial no contexto global da sustentabilidade e na luta contra as mudanças climáticas.
+
+1. **Avaliação Holística:** As emissões incorporadas consideram todo o ciclo de vida de produtos, serviços e infraestruturas. Isso inclui a extração de matérias-primas, fabricação, transporte, uso e descarte. Avaliar apenas as emissões diretas (como aquelas provenientes do uso de combustíveis fósseis) é insuficiente para entender o impacto ambiental completo.
+
+
+2. **Tomada de Decisões Conscientes:** Compreender as emissões incorporadas permite que empresas, governos e indivíduos tomem decisões mais conscientes. Ao escolher entre materiais, tecnologias ou processos, podemos optar por alternativas com menor pegada de carbono.
+
+3. **Comércio Internacional e Cadeias de Suprimento:** As emissões incorporadas afetam o comércio internacional. Países que importam produtos com alta pegada de carbono podem estar externalizando suas emissões. Considerar esses aspectos é fundamental para políticas de comércio justo e sustentável.
+
+
+4. **Metas de Redução de Emissões:** Os compromissos globais para reduzir as emissões de gases de efeito estufa (como o Acordo de Paris) exigem uma abordagem abrangente. As emissões incorporadas são parte integrante dessas metas.
+
+
+5. **Inovação e Design Sustentável:** Ao projetar produtos e infraestruturas, considerar as emissões incorporadas estimula a inovação em materiais, processos e tecnologias mais limpas. Isso impulsiona a transição para uma economia de baixo carbono.
+
+
+6. **Equidade Global:** Países com alta produção industrial podem ter emissões incorporadas significativas, mesmo que suas emissões diretas sejam relativamente baixas. Compreender essas disparidades é essencial para abordagens equitativas na mitigação das mudanças climáticas.
+
+
+As emissões incorporadas são uma métrica fundamental para uma visão completa do impacto ambiental. Ao considerá-las, podemos trabalhar em direção a um futuro mais sustentável e resiliente. 🌿🌎
+
