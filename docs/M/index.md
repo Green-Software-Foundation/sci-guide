@@ -24,19 +24,19 @@ If your application is running on the cloud, the hardware resources would be sha
 
 M = TE * TS * RS
 
-TE = Total embodied emissions, meaning the sum of life cycle assessment (LCA) emissions for all hardware components 
-`TS = Time-share, meaning the share of the total life span of the hardware reserved for use by the software 
-`RS = Resource-share, meaning the share of the total available resources of the hardware reserved for use by the software.
+- TE = Total embodied emissions, meaning the sum of life cycle assessment (LCA) emissions for all hardware components 
+- `TS = Time-share, meaning the share of the total life span of the hardware reserved for use by the software`
+- RS = Resource-share, meaning the share of the total available resources of the hardware reserved for use by the software.
 
 We can further refine the equation:
 
 M = TE * (TR/EL) * (RR/TR)
 
-TE = Total embodied emissions, meaning the sum of LCA emissions for all hardware components  
-TR = Time reserved, meaning the length of time the hardware is reserved for use by the software 
-EL = Expected lifespan, meaning the anticipated time that the equipment will be installed
-RR = Resources reserved, meaning the number of resources reserved for use by the software
-TR = Total Resources, meaning the total number of resources available.
+- TE = Total embodied emissions, meaning the sum of LCA emissions for all hardware components  
+- TR = Time reserved, meaning the length of time the hardware is reserved for use by the software 
+- EL = Expected lifespan, meaning the anticipated time that the equipment will be installed
+- RR = Resources reserved, meaning the number of resources reserved for use by the software
+- TR = Total Resources, meaning the total number of resources available.
 
 The explanation of each of the components in this formula is also given in the specification.
 
