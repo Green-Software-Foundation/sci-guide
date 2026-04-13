@@ -14,4 +14,4 @@ There are 2 types of energy associated with the networking infrastructure.
 
 Calculating these values and multiplying them by the reference value of energy spent/GB will provide the usage emissions for networking infrastructure.
 
-For example, [we calculated the energy spent/GB](https://github.com/Green-Software-Foundation/sci-data/issues/13#issuecomment-1123962142) and came out with 0.001 KwH/GB.
+For example, [we calculated the energy spent/GB](https://github.com/Green-Software-Foundation/sci-data/issues/13#issuecomment-1123962142) within a hyperscaler network and came out with 0.001 KwH/GB.
